@@ -17,6 +17,8 @@ class UserTableSeeder extends Seeder
         User::create([
             'name' => 'Gustavo Adolfo Arias',
             'identification' => '999999999',
+            'role_id' => '1',
+            'license_expiration' => null,
         ]);
     }
 }

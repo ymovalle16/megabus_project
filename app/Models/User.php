@@ -31,17 +31,10 @@ class User extends Authenticatable
         'identification',
     ];
 
-    /**
-     * Get the attributes that should be cast.
-     *
-     * @return array<string, string>
-     */
-    // protected function casts(): array
-    // {
-    //     return [
-    //         // 'email_verified_at' => 'datetime',
-    //         'identification' => 'hashed',
-    //     ];
-    // }
+    public function role()
+    {
+        return $this->belongsTo(Role::class);
+    }
+
 }
 

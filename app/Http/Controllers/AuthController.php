@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 use App\Models\User;
+use Illuminate\Support\Facades\Auth;
 
 use Illuminate\Http\Request;
 
@@ -20,6 +21,7 @@ class AuthController extends Controller
             'identification' => 'required|numeric',  // Asegúrate de que el campo sea un número
         ]);
 
+        
         // Buscar el usuario por el número de documento
         $usuario = User::where('identification', $request->identification)->first();
 
@@ -28,14 +30,19 @@ class AuthController extends Controller
             return redirect()->back()->withErrors(['error' => 'El número de identificación no se encuentra en la base de datos']);
         }
 
+        Auth::login($usuario);
+
         // Redirigir a la página principal o dashboard
         return redirect()->route('index');
     }
 
-    public function index() {
-        // Lógica para manejar la solicitud
-        return view('index'); // Cambia esto por la vista que desees retornar
+    public function logout()
+    {
+        Auth::logout();
+        return redirect()->route('login'); // Redirigir al login
     }
+
+    
 
     
 }
