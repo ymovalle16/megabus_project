@@ -6,15 +6,16 @@ use App\Models\User;
 
 use Illuminate\Http\Request;
 
-class PaginaController extends Controller
+class AdminController extends Controller
 {
     //
-    public function indexU() {
+    public function indexA() {
         // Lógica para manejar la solicitud
         if (!Auth::check()) {
             return redirect()->route('login');
         }
-        $userss = User::all();
-        return view('users.indexU', compact('userss')); // Cambia esto por la vista que desees retornar
+
+        $users = User::all();
+        return view('admin.indexA', compact('users')); // Cambia esto por la vista que desees retornar
     }
 }

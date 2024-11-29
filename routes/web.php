@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\PaginaController;
+use App\Http\Controllers\AdminController;
 
 
 
@@ -17,6 +18,7 @@ Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
 // // Rutas protegidas que requieren autenticación
 
 Route::middleware(['auth'])->group(function () {
-    Route::get('/index', [PaginaController::class, 'index'])->name('index');
+    Route::get('/users/indexU', [PaginaController::class, 'indexU'])->name('indexU');
+    Route::get('/admin/indexA', [AdminController::class, 'indexA'])->name('indexA');
 
 });

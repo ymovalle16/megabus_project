@@ -8,7 +8,7 @@
 
 @section('content')
 
-<p>holaa</p>
+<p>HOLA</p>
 
 
 @endsection

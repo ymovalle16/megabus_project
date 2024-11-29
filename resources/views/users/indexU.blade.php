@@ -1,6 +1,6 @@
-@extends('layouts.plantillaAdmin')
+@extends('layouts.plantillaUsers')
 
-@section('title', 'Dashboard')
+@section('title', 'Página inicio')
 
 @section('estilos')
 {{-- <link rel="stylesheet" href="{{asset('CSS/dash.css')}}"> --}}
@@ -8,7 +8,6 @@
 
 @section('content')
 
-<p>holaa</p>
 
 
 @endsection
