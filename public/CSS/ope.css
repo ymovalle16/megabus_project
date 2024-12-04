@@ -1,0 +1,15 @@
+.search input{
+    border-radius: 50px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.search input:focus{
+    outline: none;
+    border: 1px solid black;
+    box-shadow: none;
+}
+
+.encabezado{
+    padding: 0 0 10px 0;
+}

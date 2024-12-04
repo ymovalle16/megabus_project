@@ -21,12 +21,7 @@ class UserTableSeeder extends Seeder
                 'identification' => '999999999',
                 'role_id' => '1',
                 'license_expiration' => null,
-                ],
-                [
-                'name' => 'Yuliana Muños',
-                'identification' => '123456',
-                'role_id' => '2',
-                'license_expiration' => null,
+                'status' => null,
                 ]
         ]);
     }

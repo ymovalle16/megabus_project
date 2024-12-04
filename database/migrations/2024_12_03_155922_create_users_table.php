@@ -16,6 +16,7 @@ return new class extends Migration
             $table->string('name');
             $table->string('identification')->unique();
             $table->foreignId('role_id')->constrained()->onDelete('cascade'); // BIGINT UNSIGNED
+            $table->foreignId('status')->nullable()->constrained('statuses')->onDelete('set null');
             $table->date('license_expiration')->nullable();
             $table->timestamps();
         });

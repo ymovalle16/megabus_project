@@ -36,10 +36,9 @@
             <div> 
                 <a href="{{ route ('indexA')}}" class="nav_logo" id="nav-logo"> <img src="{{asset ('img/megaBus.png')}}" alt="Logo Megabus" style="width: 52px;"> </a>
                 <div class="nav_list"> 
-                    <a href="" class="nav_link"><i class='bx bx-group nav_icon'></i> <span class="nav_name">Principal</span> </a>
-                    <a href="" class="nav_link"> <i class='bx bx-refresh nav_icon'></i> <span class="nav_name">Rotaciones</span> </a>
-                    <a href="" class="nav_link"> <i class='bx bx-table nav_icon'></i> <span class="nav_name">Grupos</span> </a>
-                    <a href="" class="nav_link"> <i class='bx bx-news nav_icon'></i> </i> <span class="nav_name">Asignaciones</span> </a>
+                    <a href="{{ route ('indexA')}}" class="nav_link"> <i class='bx bx-home nav_icon'></i> <span class="nav_name">Principal</span> </a>
+                    <a href="{{ route ('operadores')}}" class="nav_link"> <i class='bx bx-group nav_icon'></i> <span class="nav_name">Operadores</span> </a>
+                    <a href="" class="nav_link"> <i class='bx bx-bus nav_icon' ></i> <span class="nav_name">Busetas</span> </a>
                 </div>
             </div> 
            

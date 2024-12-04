@@ -8,6 +8,7 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 
 class User extends Authenticatable
+
 {
     /** @use HasFactory<\Database\Factories\UserFactory> */
     use HasFactory, Notifiable;
@@ -21,6 +22,7 @@ class User extends Authenticatable
         'name',
         'identification',
         'role_id',
+        'status',
     ];
 
     /**
@@ -37,5 +39,14 @@ class User extends Authenticatable
         return $this->belongsTo(Role::class);
     }
 
-}
+    public function status() {
+        return $this->belongsTo(Status::class, 'status'); 
+    }
 
+
+    // public function status()
+    // {
+    //     return $this->belongsTo(Status::class);
+    // }
+
+} 
