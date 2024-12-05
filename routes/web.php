@@ -23,6 +23,9 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/admin/operadores', [AdminController::class, 'operadores'])->name('operadores');
     Route::get('/admin/agregarOpe', [AdminController::class, 'agregarOpe'])->name('agregarOpe');
     Route::post('/addOpe', [AdminController::class, 'addOpe'])->name('addOpe');
+    Route::get('/admin/buses', [AdminController::class, 'buses'])->name('buses');
+    Route::get('/admin/agregarBus', [AdminController::class, 'agregarBus'])->name('agregarBus');
+    Route::post('/addBus', [AdminController::class, 'addBus'])->name('addBus');
 
 
 });

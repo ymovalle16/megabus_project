@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Auth;
 use App\Models\User;
 use App\Models\Role;
 use App\Models\Status;
+use App\Models\Bus;
 
 
 use Illuminate\Http\Request;
@@ -63,6 +64,40 @@ class AdminController extends Controller
 
         // Redirigir a la página de operadores con un mensaje de éxito
         return redirect()->route('operadores')->with('success', 'Operador agregado correctamente');
+    }
+
+    public function buses() {
+
+        $buses = Bus::all();
+        return view('admin.buses', compact('buses'));
+    }
+
+    public function agregarBus() {
+
+        return view('admin.agregarBus');
+    }
+
+    public function addBus(Request $request)
+    {
+        // Validar los datos del formulario
+        $validated = $request->validate([
+            'code' => 'required|string|max:5',
+        ]);
+
+        // Verificar si ya existe un bus con el mismo número de identificación
+        if (Bus::where('code', $validated['code'])->exists()) {
+            return redirect()->back()->withInput()->withErrors([
+                'code' => 'Ya existe un bus con este código',
+            ]);
+        }
+
+        $bus = new Bus();
+        $bus->code = $validated['code'];
+        $bus->status = 1;
+        $bus->save();
+
+        // Redirigir a la página de buses con un mensaje de éxito
+        return redirect()->route('buses')->with('success', 'Bus agregado correctamente');
     }
 
 }
