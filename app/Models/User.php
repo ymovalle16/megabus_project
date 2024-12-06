@@ -23,6 +23,9 @@ class User extends Authenticatable
         'identification',
         'role_id',
         'status',
+        'license_expiration',
+        'bus_code',
+
     ];
 
     /**

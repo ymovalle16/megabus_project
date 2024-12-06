@@ -18,6 +18,7 @@ return new class extends Migration
             $table->foreignId('role_id')->constrained()->onDelete('cascade'); // BIGINT UNSIGNED
             $table->foreignId('status')->nullable()->constrained('statuses')->onDelete('set null');
             $table->date('license_expiration')->nullable();
+            $table->string('bus_code', 20)->nullable();
             $table->timestamps();
         });
     }

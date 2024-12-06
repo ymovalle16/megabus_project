@@ -38,10 +38,12 @@
           <th scope="col">Número de identificación</th>
           <th scope="col">Nombre</th>
           <th scope="col">Fecha de vencimiento de la licencia</th>
-          <th scope="col" class="d-flex justify-content-between align-items-center">
-            Estado
+          <th scope="col">Estado</th>
+          <th scope="col">Bus asignado</th>
+          <th scope="col" class="d-flex justify-content-between align-items-center"> 
+            Acciones 
             <a href="{{ route ('agregarOpe')}}" class="btn btn-sm btn-success" title="Agregar operador"><i class='bx bx-plus fs-6' ></i></a>
-        </th>
+          </th>
         </tr>
       </thead>
       <tbody>
@@ -57,6 +59,14 @@
             @else
               <td>Sin estado</td>
             @endif
+            @if($user->bus_code)
+                <td>{{ $user->bus_code }}</td>
+            @else
+                <td>Sin bus Asignado</td>
+            @endif
+            <td class="actions">
+              <a href="" class="btn btn-success btn-sm w-50 "><i class='bx bxs-edit-alt fs-6'></i></a>
+            </td>
           </tr>
         @endforeach
       </tbody>

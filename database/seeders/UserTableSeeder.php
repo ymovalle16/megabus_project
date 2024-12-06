@@ -22,6 +22,7 @@ class UserTableSeeder extends Seeder
                 'role_id' => '1',
                 'license_expiration' => null,
                 'status' => null,
+                'bus_code' => null,
                 ]
         ]);
     }

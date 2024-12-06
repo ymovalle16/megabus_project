@@ -6,6 +6,7 @@ use App\Models\User;
 use App\Models\Role;
 use App\Models\Status;
 use App\Models\Bus;
+use App\Models\BusStatus;
 
 
 use Illuminate\Http\Request;
@@ -34,7 +35,11 @@ class AdminController extends Controller
     }
 
     public function agregarOpe() {
-        return view('admin.agregarOpe');
+
+        $availableBuses = Bus::whereHas('status', function ($query) {
+            $query->where('status_name', '=', 'Disponible');
+        })->get();
+        return view('admin.agregarOpe', compact('availableBuses'));
     }
 
     public function addOpe(Request $request)
@@ -44,7 +49,12 @@ class AdminController extends Controller
             'name' => 'required|string|max:255',
             'identification' => 'required|numeric',
             'license_expiration' => 'required|date',
+            'bus_code' => 'required|string|max:20', // Permitir "Sin código" como válido
+
         ]);
+
+        // Manejar el bus_code
+        $busCode = $validated['bus_code'] === 'Sin código' ? null : $validated['bus_code']; // Cambia 'Sin código' a null
 
         // Verificar si ya existe un operador con el mismo número de identificación
         if (User::where('identification', $validated['identification'])->exists()) {
@@ -60,7 +70,19 @@ class AdminController extends Controller
         $user->license_expiration = $validated['license_expiration'];
         $user->role_id = 2; // Asignar role_id con el valor de 2
         $user->status = 1;
+        $user->bus_code = $busCode; // Usar $busCode
         $user->save();
+
+        // Solo actualizar el estado del bus si se eligió un bus válido
+        if ($busCode !== null) {
+            $bus = Bus::where('code', $busCode)->first();
+
+            if ($bus) { // Verificar si el bus existe
+                $assignedStatus = BusStatus::where('status_name', 'Asignada')->first(); 
+                $bus->status = $assignedStatus->id;
+                $bus->save();
+            }
+        }
 
         // Redirigir a la página de operadores con un mensaje de éxito
         return redirect()->route('operadores')->with('success', 'Operador agregado correctamente');

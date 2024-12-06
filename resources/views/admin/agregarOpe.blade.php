@@ -46,6 +46,18 @@
         <input type="date" class="form-group w-50" id="license-expiration" name="license_expiration" required>
     </div>
 
+    <div class="d-flex justify-content-between mt-3">
+        <label for="bus_code">Código de bus<span class="text-danger">*</span></label>
+        <div class="w-50">
+            <select name="bus_code" class="form-group w-100" required>
+                <option value="Sin código">Sin bus asignado</option>
+                @foreach ($availableBuses as $bus)
+                    <option value="{{ $bus->code }}">{{ $bus->code }}</option>
+                @endforeach
+            </select>
+        </div>
+    </div>
+
     <div class="w-50 mx-auto text-center m-4">
         <button type="submit" class="btn btn-md btn-success">Enviar</button>
         <a href="{{ route('operadores') }}" class="btn btn-md btn-danger">Volver</a>
