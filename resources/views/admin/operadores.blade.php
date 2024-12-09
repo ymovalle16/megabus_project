@@ -65,9 +65,9 @@
                 <td>Sin bus Asignado</td>
             @endif
             <td class="actions">
-              <a href="" class="btn btn-success btn-sm w-50 "><i class='bx bxs-edit-alt fs-6'></i></a>
+              <a href="{{ route('editOpe', $user->id)}}" class="btn btn-success btn-sm w-50 "><i class='bx bxs-edit-alt fs-6'></i></a>
             </td>
-          </tr>
+          </tr> 
         @endforeach
       </tbody>
   </table>

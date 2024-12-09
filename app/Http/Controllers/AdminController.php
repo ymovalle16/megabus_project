@@ -89,13 +89,11 @@ class AdminController extends Controller
     }
 
     public function buses() {
-
         $buses = Bus::all();
         return view('admin.buses', compact('buses'));
     }
 
     public function agregarBus() {
-
         return view('admin.agregarBus');
     }
 
@@ -120,6 +118,92 @@ class AdminController extends Controller
 
         // Redirigir a la página de buses con un mensaje de éxito
         return redirect()->route('buses')->with('success', 'Bus agregado correctamente');
+    }
+
+    public function editOpe($id) {
+
+        $user = User::find($id);
+        $statusBus = BusStatus::all();
+        $availableBuses = Bus::whereHas('status', function ($query) {
+            $query->where('status_name', '=', 'Disponible');
+        })->get();
+        $status = Status::all();
+        return view('admin.editOpe', compact('user', 'statusBus', 'availableBuses', 'status'));
+    }
+
+    public function actualizarOperador(Request $request, $id)
+    {
+        $validated = $request->validate([
+            'name' => 'sometimes|required|string|max:155',
+            'status' => 'sometimes|required|exists:statuses,id',
+            'license_expiration' => 'nullable|date',
+            'current_bus_status_id' => 'nullable|exists:bus_statuses,id',
+            'new_bus_code' => 'nullable|exists:buses,code',
+            
+        ]);
+    
+        $user = User::findOrFail($id);
+        $user->name = $validated['name'];
+        $user->status = $validated['status'];
+        $user->license_expiration = $validated['license_expiration'];
+    
+        // Manejar la lógica del cambio de bus
+        if ($request->change_bus === 'yes') {
+            // Actualizar el estado del bus actual si existe
+            if ($user->bus_code && $request->current_bus_status_id) {
+                $currentBus = Bus::where('code', $user->bus_code)->first();
+                if ($currentBus) {
+                    $currentBus->status_id = $validated['current_bus_status_id'];
+                    $currentBus->save();
+                }
+            }
+    
+            // Asignar nueva buseta al operador
+            if ($request->new_bus_code) {
+                $newBus = Bus::where('code', $validated['new_bus_code'])->first();
+                if ($newBus) {
+                    $assignedStatus = BusStatus::where('status_name', 'Asignada')->first();
+                    if ($assignedStatus) {
+                        $newBus->status_id = $assignedStatus->id;
+                        $newBus->save();
+                        $user->bus_code = $validated['new_bus_code']; // Asignar el nuevo bus al operador
+                    } else {
+                        return redirect()->back()->withErrors(['error' => 'El estado "Asignada" no se encuentra en la base de datos.']);
+                    }
+                } else {
+                    return redirect()->back()->withErrors(['error' => 'El nuevo bus no se encuentra en la base de datos.']);
+                }
+            } else {
+                // Si no se selecciona nuevo bus, poner el campo bus_code a null
+                $user->bus_code = null;
+            }
+        } else if (!$user->bus_code && $request->new_bus_code) {
+            // Asignar bus a un operador que no tenía bus previamente
+            $newBus = Bus::where('code', $validated['new_bus_code'])->first();
+            if ($newBus) {
+                $assignedStatus = BusStatus::where('status_name', 'Asignada')->first();
+                if ($assignedStatus) {
+                    $newBus->status_id = $assignedStatus->id;
+                    $newBus->save();
+                    $user->bus_code = $validated['new_bus_code']; // Asignar el nuevo bus al operador
+                } else {
+                    return redirect()->back()->withErrors(['error' => 'El estado "Asignada" no se encuentra en la base de datos.']);
+                }
+            } else {
+                return redirect()->back()->withErrors(['error' => 'El nuevo bus no se encuentra en la base de datos.']);
+            }
+        }
+    
+        // Guardar los cambios del operador
+        $user->save();
+    
+    
+        // Redirigir a la página principal con un mensaje de éxito
+        return redirect()->route('operadores')->with('success', 'Operador actualizado exitosamente');
+    }
+
+    public function editBus() {
+        return view('admin.editBus');
     }
 
 }

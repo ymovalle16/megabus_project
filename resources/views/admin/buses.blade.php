@@ -52,7 +52,9 @@
                 @else
                   <td>Sin estado</td>
                 @endif
-                <td class="actions"><a href="" class="btn btn-success btn-sm w-25 "><i class='bx bxs-edit-alt fs-6'></i></a></td>
+                <td class="actions">
+                    <a href="{{ route('editBus')}}" class="btn btn-success btn-sm w-25 "><i class='bx bxs-edit-alt fs-6'></i></a>
+                </td>
             </tr>
         @endforeach
       </tbody>

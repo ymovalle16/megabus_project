@@ -26,6 +26,8 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/admin/buses', [AdminController::class, 'buses'])->name('buses');
     Route::get('/admin/agregarBus', [AdminController::class, 'agregarBus'])->name('agregarBus');
     Route::post('/addBus', [AdminController::class, 'addBus'])->name('addBus');
-
+    Route::get('/admin/editOpe/{id}', [AdminController::class, 'editOpe'])->name('editOpe');
+    Route::put('admin/editOpe/{id}', [AdminController::class, 'actualizarOperador'])->name('actualizarOperador');
+    Route::get('/admin/editBus', [AdminController::class, 'editBus'])->name('editBus');
 
 });
