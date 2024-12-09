@@ -33,7 +33,7 @@
 
     <div class="d-flex justify-content-between mt-3">
         <label for="name">Código <span class="text-danger">*</span></label>
-        <input type="text" class="form-group w-50" id="code" name="code" required>
+        <input type="number" class="form-control w-50" id="code" name="code" required>
     </div>
 
     <div class="w-50 mx-auto text-center m-4">

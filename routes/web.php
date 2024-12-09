@@ -28,6 +28,6 @@ Route::middleware(['auth'])->group(function () {
     Route::post('/addBus', [AdminController::class, 'addBus'])->name('addBus');
     Route::get('/admin/editOpe/{id}', [AdminController::class, 'editOpe'])->name('editOpe');
     Route::put('admin/editOpe/{id}', [AdminController::class, 'actualizarOperador'])->name('actualizarOperador');
-    Route::get('/admin/editBus', [AdminController::class, 'editBus'])->name('editBus');
+    Route::patch('/admin/buses/{id}', [AdminController::class, 'cambiarEstado'])->name('cambiarEstadoBus');
 
 });

@@ -33,23 +33,23 @@
 
     <div class="d-flex justify-content-between mt-3">
         <label for="name">Nombre completo <span class="text-danger">*</span></label>
-        <input type="text" class="form-group w-50" id="name" name="name" required>
+        <input type="text" class="form-control w-50" id="name" name="name" required>
     </div>
 
     <div class="d-flex justify-content-between mt-3">
         <label for="identification">Número de identificación <span class="text-danger">*</span></label>
-        <input type="number" class="form-group w-50" id="identification" name="identification" required>
+        <input type="number" class="form-control w-50" id="identification" name="identification" required>
     </div>
 
     <div class="d-flex justify-content-between mt-3">
         <label for="license-expiration">Fecha de vencimiento de la licencia <span class="text-danger">*</span></label>
-        <input type="date" class="form-group w-50" id="license-expiration" name="license_expiration" required>
+        <input type="date" class="form-control w-50" id="license-expiration" name="license_expiration" required>
     </div>
 
     <div class="d-flex justify-content-between mt-3">
         <label for="bus_code">Código de bus<span class="text-danger">*</span></label>
         <div class="w-50">
-            <select name="bus_code" class="form-group w-100" required>
+            <select name="bus_code" class="form-control w-100" required>
                 <option value="Sin código">Sin bus asignado</option>
                 @foreach ($availableBuses as $bus)
                     <option value="{{ $bus->code }}">{{ $bus->code }}</option>

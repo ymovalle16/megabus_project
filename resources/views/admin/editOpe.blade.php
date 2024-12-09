@@ -26,15 +26,15 @@
     <form action="{{route ('actualizarOperador', $user->id)}}" method="POST" class="form-control mx-auto mt-5 mb-5 shadow" id="formulario">
         @csrf
         @method('PUT')
-        <div class="form-group row justify-content-between w-75 mx-auto">
+        <div class="form-group row justify-content-between w-75 mx-auto mt-3">
             <label class="col-form-label col-sm-4 col-md-4 col-lg-3" for="name">Nombre</label>
             <div class="col-sm-8 col-md-8 col-lg-9">
                 <input type="text" id="name" name="name" class="form-control" value="{{ $user->name }}">
             </div>
         </div>
 
-        <div class="form-group row justify-content-between w-75 mx-auto">
-            <label class="col-form-label col-sm-4 col-md-4 col-lg-3" for="name">Nombre</label>
+        <div class="form-group row justify-content-between w-75 mx-auto mt-3">
+            <label class="col-form-label col-sm-4 col-md-4 col-lg-3" for="name">Fecha de vencimiento de licencia</label>
             <div class="col-sm-8 col-md-8 col-lg-9">
                 <input type="date" id="license_expiration" name="license_expiration" class="form-control" value="{{ $user->license_expiration }}">
             </div>
@@ -42,7 +42,7 @@
 
         @if($user->bus_code)
         <!-- Operador tiene bus asignado -->
-        <div class="form-group row justify-content-between w-75 mx-auto">
+        <div class="form-group row justify-content-between w-75 mx-auto mt-3">
             <label class="col-form-label col-sm-4 col-md-4 col-lg-3" for="change_bus">¿Desea cambiar el bus?</label>
             <div class="col-sm-8 col-md-8 col-lg-9">
                 <select id="change_bus" name="change_bus" class="form-control">
@@ -74,7 +74,7 @@
         </div>
         @else
         <!-- Operador no tiene bus asignado -->
-        <div class="form-group row justify-content-between w-75 mx-auto">
+        <div class="form-group row justify-content-between w-75 mx-auto mt-3">
             <label class="col-form-label col-sm-4 col-md-4 col-lg-3" for="new_bus_code">Asignar un bus</label>
             <div class="col-sm-8 col-md-8 col-lg-9">
                 <select id="new_bus_code" name="new_bus_code" class="form-control">
@@ -86,7 +86,7 @@
             </div>
         </div>
         @endif
-        <div class="form-group row justify-content-between w-75 mx-auto">
+        <div class="form-group row justify-content-between w-75 mx-auto mt-3">
             <label class="col-form-label col-sm-4 col-md-4 col-lg-3" for="">Estado</label>
             <div class="col-sm-8 col-md-8 col-lg-9">
                 <select name="status" class="form-control">
@@ -96,9 +96,9 @@
                 </select>
             </div>
         </div>
-        <div class="boton text-center d-flex mt-5 mb-3 flex-sm-row gap-4">
-            <button type="submit" class="btn mb-2 mb-sm-0">Enviar</button>
-            <a href="{{route('operadores')}}" class="bot">Volver</a>
+        <div class="w-50 mx-auto text-center m-4">
+            <button type="submit" class="btn btn-md btn-success">Enviar</button>
+            <a href="{{ route('operadores') }}" class="btn btn-md btn-danger">Volver</a>
         </div>
     </form>
     

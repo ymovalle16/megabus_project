@@ -90,7 +90,13 @@ class AdminController extends Controller
 
     public function buses() {
         $buses = Bus::all();
-        return view('admin.buses', compact('buses'));
+        $status = BusStatus::where('status_name', '!=', 'Asignada')->get();
+
+        $buses = Bus::whereHas('status', function ($query) {
+            $query->where('status_name', '!=', 'Asignada');
+        })->with('status')->get();
+
+        return view('admin.buses', compact('buses', 'status'));
     }
 
     public function agregarBus() {
@@ -150,10 +156,10 @@ class AdminController extends Controller
         // Manejar la lógica del cambio de bus
         if ($request->change_bus === 'yes') {
             // Actualizar el estado del bus actual si existe
-            if ($user->bus_code && $request->current_bus_status_id) {
+            if ($user->bus_code && $request->current_bus_status) {
                 $currentBus = Bus::where('code', $user->bus_code)->first();
                 if ($currentBus) {
-                    $currentBus->status_id = $validated['current_bus_status_id'];
+                    $currentBus = $validated['current_bus_status'];
                     $currentBus->save();
                 }
             }
@@ -164,7 +170,7 @@ class AdminController extends Controller
                 if ($newBus) {
                     $assignedStatus = BusStatus::where('status_name', 'Asignada')->first();
                     if ($assignedStatus) {
-                        $newBus->status_id = $assignedStatus->id;
+                        $newBus->status = $assignedStatus->id;
                         $newBus->save();
                         $user->bus_code = $validated['new_bus_code']; // Asignar el nuevo bus al operador
                     } else {
@@ -183,7 +189,7 @@ class AdminController extends Controller
             if ($newBus) {
                 $assignedStatus = BusStatus::where('status_name', 'Asignada')->first();
                 if ($assignedStatus) {
-                    $newBus->status_id = $assignedStatus->id;
+                    $newBus->status = $assignedStatus->id;
                     $newBus->save();
                     $user->bus_code = $validated['new_bus_code']; // Asignar el nuevo bus al operador
                 } else {
@@ -197,13 +203,24 @@ class AdminController extends Controller
         // Guardar los cambios del operador
         $user->save();
     
-    
         // Redirigir a la página principal con un mensaje de éxito
         return redirect()->route('operadores')->with('success', 'Operador actualizado exitosamente');
     }
 
-    public function editBus() {
-        return view('admin.editBus');
+    public function cambiarEstado(Request $request, Bus $id)
+    {
+        // Validar el estado recibido
+        $validated = $request->validate([
+            'status' => 'required|exists:bus_statuses,id', // Verificamos que el estado exista en la base de datos
+        ]);
+
+        // Actualizar el estado del bus
+        $id->status = $request->input('status');
+        $id->save();
+
+        // Redirigir con mensaje de éxito
+        return redirect()->route('buses')->with('success', 'Estado actualizado correctamente');
     }
+
 
 }

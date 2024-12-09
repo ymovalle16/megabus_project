@@ -3,7 +3,7 @@
 @section('title', 'Buses')
 
 @section('estilos')
-<link rel="stylesheet" href="{{asset('CSS/ope.css')}}">
+<link rel="stylesheet" href="{{asset('CSS/bus.css')}}">
 @endsection
 
 @section('content')
@@ -53,7 +53,20 @@
                   <td>Sin estado</td>
                 @endif
                 <td class="actions">
-                    <a href="{{ route('editBus')}}" class="btn btn-success btn-sm w-25 "><i class='bx bxs-edit-alt fs-6'></i></a>
+                    <form action="{{ route('cambiarEstadoBus', $bus->id) }}" method="POST" class="d-inline">
+                        @csrf
+                        @method('PATCH') <!-- Usamos PATCH porque estamos actualizando el estado -->
+                        <button id="BotonT" type="button" class="btn btn-sm btn-success transfer-btn">
+                            <select class="bg-success text-light border-0" name="status" onchange="this.form.submit()">
+                                <option class="bg-light text-dark" value="" disabled>Cambiar Estado</option>
+                                @foreach($status as $state)
+                                    <option class="bg-light text-dark" value="{{ $state->id }}" {{ $bus->status == $state->id ? 'selected' : '' }}>
+                                        {{ $state->status_name }}
+                                    </option>
+                                @endforeach
+                            </select>
+                        </button>
+                    </form>
                 </td>
             </tr>
         @endforeach
