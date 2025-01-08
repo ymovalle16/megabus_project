@@ -38,7 +38,7 @@
           <th scope="col">Código</th>
           <th scope="col">Estado</th>
           <th scope="col" class="d-flex justify-content-between align-items-center">
-            Acciones 
+            Cambiar Estado
             <a href="{{ route ('agregarBus')}}" class="btn btn-sm btn-success" title="Agregar Bus"><i class='bx bx-plus fs-6' ></i></a>
           </th>
         </tr>

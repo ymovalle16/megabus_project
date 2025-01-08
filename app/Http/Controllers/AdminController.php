@@ -222,5 +222,7 @@ class AdminController extends Controller
         return redirect()->route('buses')->with('success', 'Estado actualizado correctamente');
     }
 
-
+    public function tablas() {
+        return view('admin.tablas');
+    }
 }

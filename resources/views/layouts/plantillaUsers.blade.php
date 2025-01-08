@@ -16,27 +16,27 @@
     <link rel="icon" type="ima/png" href="{{asset('img/logo.png')}}">
   </head>
   <body  style="background-color: rgb(236, 234, 234);">
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="{{asset ('img/megaBus.png')}}" alt="" style="width: 50px;"></a>
+          <a class="navbar-brand" href="{{route ('indexU')}}"><img src="{{asset ('img/megaBus.png')}}" alt="" style="width: 50px;"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link text-dark" aria-current="page" href="#">Principal</a>
-              </li>
-            </ul>
-            <div class="d-flex">
-                @if(auth()->check())
+              @if(auth()->check())
                     <h5 class="">Bienvenido {{ auth()->user()->name }}</h5>
                 @endif
+            </ul>
+              <li class="nav-item d-flex">
+                <a class="nav-link text-dark fs-6 fw-bold" aria-current="page" href="{{route ('indexU')}}">Programación de hoy</a>
+                <a class="nav-link text-dark fs-6 fw-bold" aria-current="page" href="">Programaciones pasadas</a>
+                <a class="nav-link text-dark fs-6 fw-bold" aria-current="page" href="">Descansos</a>
                 <form action="{{ route('logout') }}" method="POST" class="d-flex">
-                    @csrf <!-- Necesario para la protección CSRF -->
-                    <button type="submit" class="nav_link border-0 bg-white" id="cerrarSe"> <i class='bx bx-log-out nav_icon'></i> </button>
+                  @csrf <!-- Necesario para la protección CSRF -->
+                  <button type="submit" class="cs" id="cerrarSe" title="Cerrar Sesión"> <i class='bx bx-log-out nav_icon'></i> </button>
                 </form>
-            </div>
+              </li>
           </div>
         </div>
       </nav>

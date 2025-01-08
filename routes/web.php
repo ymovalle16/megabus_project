@@ -29,5 +29,6 @@ Route::middleware(['auth'])->group(function () {
     Route::get('/admin/editOpe/{id}', [AdminController::class, 'editOpe'])->name('editOpe');
     Route::put('admin/editOpe/{id}', [AdminController::class, 'actualizarOperador'])->name('actualizarOperador');
     Route::patch('/admin/buses/{id}', [AdminController::class, 'cambiarEstado'])->name('cambiarEstadoBus');
+    Route::get('/admin/tablas', [AdminController::class, 'tablas'])->name('tablas');
 
 });

@@ -5,7 +5,7 @@
 @endsection
 @section('content')
     <div class="encabezado bg-light rounded shadow w-75 mx-auto text-center">
-        <h3 class="p-1">Agregar Operador</h3>
+        <h3 class="p-1">Editar Operador</h3>
     </div>
 
     @if(session('success'))

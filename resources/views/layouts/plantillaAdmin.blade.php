@@ -39,6 +39,7 @@
                     <a href="{{ route ('indexA')}}" class="nav_link"> <i class='bx bx-home nav_icon'></i> <span class="nav_name">Principal</span> </a>
                     <a href="{{ route ('operadores')}}" class="nav_link"> <i class='bx bx-group nav_icon'></i> <span class="nav_name">Operadores</span> </a>
                     <a href="{{ route ('buses')}}" class="nav_link"> <i class='bx bx-bus nav_icon' ></i> <span class="nav_name">Busetas</span> </a>
+                    <a href="{{ route ('tablas')}}" class="nav_link"> <i class='bx bx-table nav_icon'></i> <span class="nav_name">Tablas</span> </a>
                 </div>
             </div> 
            

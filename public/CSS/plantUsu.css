@@ -1,3 +1,28 @@
 .nav_icon{
     font-size: 27px;
 }
+
+.navbar{
+    background-color:#f1ce00 ;
+}
+
+.cs{
+    border: none;
+    background-color: #f1ce00 ;
+}
+
+h5{
+    margin-right: 20px;
+}
+
+
+/* Estilo para hacer que el menú sea vertical en pantallas pequeñas */
+@media (max-width: 992px) { /* Para pantallas más pequeñas */
+    .navbar-nav {
+        flex-direction: column; /* Pone los elementos en columna */
+        align-items: flex-start; /* Alinea los elementos al principio */
+    }
+    .navbar-nav .nav-item {
+        width: 100%; /* Hace que los elementos ocupen todo el ancho disponible */
+    }
+}
