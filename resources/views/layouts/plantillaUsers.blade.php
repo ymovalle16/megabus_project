@@ -50,3 +50,6 @@
 {{-- @if(auth()->check())
             <p class="text-light bienvenida">Bienvenido {{ auth()->user()->name }}</p>
     @endif --}}
+
+
+    

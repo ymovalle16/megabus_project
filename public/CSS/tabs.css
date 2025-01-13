@@ -1,0 +1,74 @@
+.conte {
+    display: flex;
+    flex-wrap: wrap;  /* Permite que los elementos se muevan a la siguiente fila cuando no haya suficiente espacio */
+    justify-content: space-between;  /* Distribuye las tarjetas con espacio entre ellas */
+    margin: 0 35px 0 35px;
+}
+
+.text-light{
+    background-color: #0000ff  !important;
+}
+
+.inifin{
+    background-color: #a6a6a6 !important;
+}
+
+.container1{
+    width: 32%;
+}
+
+.container2{
+    width: 62%;
+}
+
+.fecha{
+    font-size: 15px;
+}
+
+.hora{
+    font-size: 12px;
+    text-align: center;
+}
+
+body{
+    line-height: 1.2;
+}
+
+.pre{
+    font-size: 14px;
+}
+
+.tabla{
+    margin: 0 auto;
+    width: 98%;
+}
+
+.p-3{
+    font-weight: 800;
+}
+
+.edw{
+    font-weight: 800;
+}
+
+.amarillo{
+    background-color: #ffff00  !important;
+}      
+
+.azulc{
+    background-color: #00b0f0 !important;
+}
+
+.contenedor{
+    width: 50%;
+}
+
+@media (max-width: 600px){
+    .contenedor{
+        width: 100%;
+    }
+
+    .conte{
+        margin: 0 0 0 0;
+    }
+}
