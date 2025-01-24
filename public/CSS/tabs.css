@@ -1,10 +1,3 @@
-.conte {
-    display: flex;
-    flex-wrap: wrap;  /* Permite que los elementos se muevan a la siguiente fila cuando no haya suficiente espacio */
-    justify-content: space-between;  /* Distribuye las tarjetas con espacio entre ellas */
-    margin: 0 35px 0 35px;
-}
-
 .text-light{
     background-color: #0000ff  !important;
 }
@@ -38,10 +31,7 @@ body{
     font-size: 14px;
 }
 
-.tabla{
-    margin: 0 auto;
-    width: 98%;
-}
+
 
 .p-3{
     font-weight: 800;
@@ -49,6 +39,8 @@ body{
 
 .edw{
     font-weight: 800;
+    padding: 0;
+    margin: 0;
 }
 
 .amarillo{
@@ -59,16 +51,30 @@ body{
     background-color: #00b0f0 !important;
 }
 
-.contenedor{
+.tabla {
     width: 50%;
+    display: none; /* Oculta todas las tablas por defecto */
 }
 
+
 @media (max-width: 600px){
-    .contenedor{
+    .tabla{
         width: 100%;
     }
 
     .conte{
-        margin: 0 0 0 0;
+        display: flex;
+        flex-direction: column;
     }
+}
+
+.pad{
+    font-weight: 800;
+}
+
+.conte {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;  /* Cambiar de space-between a space-around */
+    margin: 0 35px 0 35px;
 }
