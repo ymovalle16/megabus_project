@@ -51,6 +51,20 @@ body{
     background-color: #00b0f0 !important;
 }
 
+.verde{
+    background-color: #92d050 !important;
+}
+
+.rojo {
+    background-color: #ff0000 !important;
+    color: #fff !important;
+}
+
+.rojoc {
+    background-color: #ff3121 !important;
+    color: #000;
+}
+
 .tabla {
     width: 50%;
     display: none; /* Oculta todas las tablas por defecto */
