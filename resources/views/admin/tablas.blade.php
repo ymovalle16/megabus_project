@@ -4,13 +4,14 @@
 
 @section('estilos')
     <link rel="stylesheet" href="{{ asset('CSS/tabs.css') }}">
+    <script src="{{ asset('JS/functs.js') }}"></script>
+    <meta name="csrf-token" content="{{ csrf_token() }}">
 @endsection
 
 @section('content')
 
-
     <div class="encabezado bg-light rounded shadow w-75 mx-auto text-center ">
-        <h3 class="p-1">Programación</h3>
+        <h3 class="p-1">Programación</h3> 
     </div>
 
     <div class="text-center mt-4">
@@ -25,7 +26,8 @@
 
 
     <div class="conte d-flex" id="tablasContainer">
-        <div class="tabla lunes" style="display: none;">
+
+        <div class="tabla lunes" data-nombre-ruta="Altagracia Partida Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -181,7 +183,7 @@
 
 
 
-        <div class="tabla lunes " style="display: none;">
+        <div class="tabla lunes" data-nombre-ruta="Cerritos Partida Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -333,7 +335,7 @@
             </div>
         </div>
 
-        <div class="tabla lunes">
+        <div class="tabla lunes" data-nombre-ruta="Guayacanes Partida Lunes">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -541,7 +543,7 @@
             </div>
         </div>
 
-        <div class="tabla lunes">
+        <div class="tabla lunes" data-nombre-ruta="La Virginia Hábil AM">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -712,7 +714,7 @@
         </div>
 
 
-        <div class="tabla lunes">
+        <div class="tabla lunes" data-nombre-ruta="Ruta 29 Mirador partida">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -874,7 +876,7 @@
         </div>
 
 
-        <div class="tabla lunes">
+        <div class="tabla lunes" data-nombre-ruta="Pausados Lunes 3">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -1037,7 +1039,7 @@
             </div>
         </div>
 
-        <div class="tabla lunes">
+        <div class="tabla lunes" data-nombre-ruta="Pausados Lunes 1">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -1227,7 +1229,7 @@
         </div>
 
 
-        <div class="tabla lunes">
+        <div class="tabla lunes" data-nombre-ruta="Pausados Lunes 2">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -1442,7 +1444,7 @@
             </div>
         </div>
 
-        <div class="tabla lunes">
+        <div class="tabla lunes" data-nombre-ruta="Disponible Hábil AM">
 
             <div class="container1 mt-5 mx-auto">
 
@@ -1564,7 +1566,7 @@
             </div>
         </div>
 
-        <div class="tabla lunes">
+        <div class="tabla lunes" data-nombre-ruta="Disponible Hábil PM">
 
             <div class="container1 mt-5 mx-auto">
 
@@ -1701,7 +1703,7 @@
             </div>
         </div>
 
-        <div class="tabla lunes">
+        <div class="tabla lunes" data-nombre-ruta="Belmonte AM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -1894,7 +1896,7 @@
             </div>
         </div>
 
-        <div class="tabla lunes">
+        <div class="tabla lunes" data-nombre-ruta="Belmonte PM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -2087,7 +2089,7 @@
             </div>
         </div>
 
-        <div class="tabla lunes">
+        <div class="tabla lunes" data-nombre-ruta="1 Guayabal AM">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -2325,7 +2327,7 @@
             </div>
         </div>
 
-        <div class="tabla lunes">
+        <div class="tabla lunes" data-nombre-ruta="1 Guayabal PM">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -2568,7 +2570,7 @@
             </div>
         </div>
 
-        <div class="tabla lunes">
+        <div class="tabla lunes" data-nombre-ruta="Guayacanes AM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -2741,7 +2743,7 @@
             </div>
         </div>
 
-        <div class="tabla lunes">
+        <div class="tabla lunes" data-nombre-ruta="Guayacanes PM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -2914,7 +2916,7 @@
             </div>
         </div>
 
-        <div class="tabla lunes">
+        <div class="tabla lunes" data-nombre-ruta="Miraflores AM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -3082,7 +3084,7 @@
             </div>
         </div>
 
-        <div class="tabla lunes">
+        <div class="tabla lunes" data-nombre-ruta="Miraflores PM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -3256,7 +3258,7 @@
         </div>
 
 
-        <div class="tabla lunes">
+        <div class="tabla lunes" data-nombre-ruta="Morelia AM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -3440,7 +3442,7 @@
         </div>
 
 
-        <div class="tabla lunes">
+        <div class="tabla lunes" data-nombre-ruta="Morelia PM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -3629,7 +3631,7 @@
         </div>
 
 
-        <div class="tabla lunes">
+        <div class="tabla lunes" data-nombre-ruta="2 Guayabal AM">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -3852,7 +3854,7 @@
             </div>
         </div>
 
-        <div class="tabla lunes">
+        <div class="tabla lunes" data-nombre-ruta="2 Guayabal PM">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -4080,7 +4082,7 @@
             </div>
         </div>
 
-        <div class="tabla lunes">
+        <div class="tabla lunes" data-nombre-ruta="UTP Hábil AM">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -4227,7 +4229,7 @@
             </div>
         </div>
 
-        <div class="tabla lunes">
+        <div class="tabla lunes" data-nombre-ruta="UTP Hábil PM">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -4375,7 +4377,7 @@
         </div>
 
 
-        <div class="tabla lunes">
+        <div class="tabla lunes" data-nombre-ruta="2500 Partida Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -4528,7 +4530,7 @@
             </div>
         </div>
 
-        <div class="tabla lunes">
+        <div class="tabla lunes" data-nombre-ruta="La Virginia Hábil PM">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -4652,7 +4654,7 @@
             </div>
         </div>
 
-        <div class="tabla lunes">
+        <div class="tabla lunes" data-nombre-ruta=">Montelibano AM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -4824,7 +4826,7 @@
         </div>
 
 
-        <div class="tabla lunes">
+        <div class="tabla lunes" data-nombre-ruta="Montelibano PM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -4995,7 +4997,7 @@
             </div>
         </div>
 
-        <div class="tabla lunes">
+        <div class="tabla lunes" data-nombre-ruta="Cerritos AM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -5136,7 +5138,7 @@
         </div>
 
 
-        <div class="tabla lunes">
+        <div class="tabla lunes" data-nombre-ruta="Cerritos PM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -5273,14 +5275,14 @@
         </div>
 
 
-        <div class="tabla lunes">
+        <div class="tabla lunes" data-nombre-ruta="Puerto caldas Lunes a Sábado">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
                 <table class="table1 mx-auto table table-bordered border-dark text-center">
                     <!-- Primera fila -->
                     <tr>
-                        <th colspan="3" class="text-light ">Puerto caldas Lunes a Sabado</th>
+                        <th colspan="3" class="text-light ">Puerto caldas Lunes a Sábado</th>
                     </tr>
 
                     <!-- Filas con tres columnas cada una, todas con "tabla" -->
@@ -5398,7 +5400,7 @@
             </div>
         </div>
 
-        <div class="tabla lunes">
+        <div class="tabla lunes" data-nombre-ruta="Mercasa PM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -5573,7 +5575,7 @@
             </div>
         </div>
 
-        <div class="tabla lunes">
+        <div class="tabla lunes" data-nombre-ruta="Descanso">
 
             <table class="table2 mx-auto table table-bordered border-dark text-center mt-5 w-75">
                 <!-- Primera fila -->
@@ -5588,7 +5590,7 @@
         </div>
 
 
-        <div class="tabla martes">
+        <div class="tabla martes" data-nombre-ruta="La Virginia Hábil AM">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -5758,7 +5760,7 @@
             </div>
         </div>
 
-        <div class="tabla martes">
+        <div class="tabla martes" data-nombre-ruta="Cerritos Partida Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -5910,14 +5912,14 @@
             </div>
         </div>
 
-        <div class="tabla martes">
+        <div class="tabla martes" data-nombre-ruta="Puerto Caldas Lunes a Sábado">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
                 <table class="table1 mx-auto table table-bordered border-dark text-center">
                     <!-- Primera fila -->
                     <tr>
-                        <th colspan="3" class="text-light ">Puerto Caldas Lunes a Sabado</th>
+                        <th colspan="3" class="text-light ">Puerto Caldas Lunes a Sábado</th>
                     </tr>
 
                     <!-- Filas con tres columnas cada una, todas con "tabla" -->
@@ -6028,7 +6030,7 @@
             </div>
         </div>
 
-        <div class="tabla martes">
+        <div class="tabla martes" data-nombre-ruta="Mercasa PM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -6204,7 +6206,7 @@
             </div>
         </div>
 
-        <div class="tabla martes">
+        <div class="tabla martes" data-nombre-ruta="Guayacanes Partida Martes">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -6395,7 +6397,7 @@
             </div>
         </div>
 
-        <div class="tabla martes">
+        <div class="tabla martes" data-nombre-ruta="Pausados Martes">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -6581,7 +6583,7 @@
             </div>
         </div>
 
-        <div class="tabla martes">
+        <div class="tabla martes" data-nombre-ruta="Pausados Martes 1">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -6768,7 +6770,7 @@
             </div>
         </div>
 
-        <div class="tabla martes">
+        <div class="tabla martes" data-nombre-ruta="Pausados Martes 2">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -6975,7 +6977,7 @@
             </div>
         </div>
 
-        <div class="tabla martes">
+        <div class="tabla martes" data-nombre-ruta="Altagracia Partida Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -7122,8 +7124,7 @@
             </div>
         </div>
 
-        <div class="tabla martes ">
-
+        <div class="tabla martes" data-nombre-ruta="Descanso">
             <div class="d-block w-75 mx-auto">
                 <table class="table2 mx-auto table table-bordered border-dark text-center mt-5  h-25">
                     <!-- Primera fila -->
@@ -7135,7 +7136,11 @@
                         <th colspan="2" class="amarillo">Descanso</th>
                     </tr>
                 </table>
+            </div>
+        </div>
 
+        <div class="tabla martes"  data-nombre-ruta="Vacaciones">
+            <div class="d-block w-75 mx-auto">
                 <table class="table2 mx-auto table table-bordered border-dark text-center mt-5  h-25">
                     <!-- Primera fila -->
                     <tr>
@@ -7149,7 +7154,7 @@
             </div>
         </div>
 
-        <div class="tabla martes">
+        <div class="tabla martes" data-nombre-ruta="2500 Partida Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -7303,7 +7308,7 @@
             </div>
         </div>
 
-        <div class="tabla martes">
+        <div class="tabla martes" data-nombre-ruta="La Virginia Hábil PM">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -7428,7 +7433,7 @@
             </div>
         </div>
 
-        <div class="tabla martes">
+        <div class="tabla martes" data-nombre-ruta="Ruta 30 Malaga Hábil Martes AM">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -7580,7 +7585,7 @@
             </div>
         </div>
 
-        <div class="tabla martes">
+        <div class="tabla martes" data-nombre-ruta="Ruta 30 Malaga Hábil Martes PM">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -7732,7 +7737,7 @@
             </div>
         </div>
 
-        <div class="tabla martes">
+        <div class="tabla martes" data-nombre-ruta="UTP Hábil AM">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -7879,7 +7884,7 @@
             </div>
         </div>
 
-        <div class="tabla martes">
+        <div class="tabla martes" data-nombre-ruta="UTP Hábil PM">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -8026,7 +8031,7 @@
             </div>
         </div>
 
-        <div class="tabla martes">
+        <div class="tabla martes" data-nombre-ruta="Cerritos AM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -8167,7 +8172,7 @@
             </div>
         </div>
 
-        <div class="tabla martes">
+        <div class="tabla martes" data-nombre-ruta="Cerritos PM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -8304,7 +8309,7 @@
             </div>
         </div>
 
-        <div class="tabla martes">
+        <div class="tabla martes" data-nombre-ruta="Disponible Hábil AM">
 
             <div class="container1 mt-5 mx-auto">
 
@@ -8439,7 +8444,7 @@
             </div>
         </div>
 
-        <div class="tabla martes">
+        <div class="tabla martes" data-nombre-ruta="Disponible Hábil PM">
 
             <div class="container1 mt-5 mx-auto">
 
@@ -8586,7 +8591,7 @@
             </div>
         </div>
 
-        <div class="tabla martes">
+        <div class="tabla martes" data-nombre-ruta="Miraflores AM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -8753,7 +8758,7 @@
             </div>
         </div>
 
-        <div class="tabla martes">
+        <div class="tabla martes" data-nombre-ruta="Miraflores PM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -8925,7 +8930,7 @@
             </div>
         </div>
 
-        <div class="tabla martes">
+        <div class="tabla martes" data-nombre-ruta="Guayacanes AM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -9097,7 +9102,7 @@
             </div>
         </div>
 
-        <div class="tabla martes">
+        <div class="tabla martes" data-nombre-ruta="Guayacanes PM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -9269,7 +9274,7 @@
             </div>
         </div>
 
-        <div class="tabla martes">
+        <div class="tabla martes" data-nombre-ruta="1 Guayabal AM">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -9505,7 +9510,7 @@
             </div>
         </div>
 
-        <div class="tabla martes">
+        <div class="tabla martes" data-nombre-ruta="1 Guayabal PM">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -9746,7 +9751,7 @@
             </div>
         </div>
 
-        <div class="tabla martes">
+        <div class="tabla martes" data-nombre-ruta="2 Guayabal AM">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -9966,7 +9971,7 @@
             </div>
         </div>
 
-        <div class="tabla martes">
+        <div class="tabla martes" data-nombre-ruta="2 Guayabal PM">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -10191,7 +10196,7 @@
             </div>
         </div>
 
-        <div class="tabla martes">
+        <div class="tabla martes" data-nombre-ruta="Montelibano AM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -10363,7 +10368,7 @@
             </div>
         </div>
 
-        <div class="tabla martes">
+        <div class="tabla martes" data-nombre-ruta="Montelibano PM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -10535,7 +10540,7 @@
             </div>
         </div>
 
-        <div class="tabla martes">
+        <div class="tabla martes" data-nombre-ruta="Belmonte AM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -10727,7 +10732,7 @@
             </div>
         </div>
 
-        <div class="tabla martes">
+        <div class="tabla martes" data-nombre-ruta="Belmonte PM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -10919,7 +10924,7 @@
             </div>
         </div>
 
-        <div class="tabla martes">
+        <div class="tabla martes" data-nombre-ruta="Morelia AM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -11101,7 +11106,7 @@
             </div>
         </div>
 
-        <div class="tabla martes">
+        <div class="tabla martes" data-nombre-ruta="Morelia PM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -11288,7 +11293,7 @@
             </div>
         </div>
 
-        <div class="tabla miercoles">
+        <div class="tabla miercoles" data-nombre-ruta="Altagracia Partida Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -11437,7 +11442,7 @@
             </div>
         </div>
 
-        <div class="tabla miercoles">
+        <div class="tabla miercoles" data-nombre-ruta="Cerritos Partida Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -11589,7 +11594,7 @@
             </div>
         </div>
 
-        <div class="tabla miercoles">
+        <div class="tabla miercoles" data-nombre-ruta="Salamanca Miercoles Partida">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -11775,7 +11780,7 @@
             </div>
         </div>
 
-        <div class="tabla miercoles">
+        <div class="tabla miercoles" data-nombre-ruta="Guayacanes Partida Miercoles">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -11967,7 +11972,7 @@
             </div>
         </div>
 
-        <div class="tabla miercoles">
+        <div class="tabla miercoles" data-nombre-ruta="La Virginia Hábil AM">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -12127,7 +12132,7 @@
             </div>
         </div>
 
-        <div class="tabla miercoles">
+        <div class="tabla miercoles" data-nombre-ruta="Salamanca PM">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -12291,14 +12296,14 @@
             </div>
         </div>
 
-        <div class="tabla miercoles">
+        <div class="tabla miercoles" data-nombre-ruta="Puerto Caldas Lunes a Sábado">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
                 <table class="table1 mx-auto table table-bordered border-dark text-center">
                     <!-- Primera fila -->
                     <tr>
-                        <th colspan="3" class="text-light ">Puerto Caldas Lunes a Sabado</th>
+                        <th colspan="3" class="text-light ">Puerto Caldas Lunes a Sábado</th>
                     </tr>
                     <tr>
                         <th class="text-light p-0">Tabla</th>
@@ -12416,7 +12421,7 @@
             </div>
         </div>
 
-        <div class="tabla miercoles">
+        <div class="tabla miercoles" data-nombre-ruta="Mercasa PM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -12590,7 +12595,7 @@
             </div>
         </div>
 
-        <div class="tabla miercoles">
+        <div class="tabla miercoles" data-nombre-ruta="Pausados Miercoles 1">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -12778,7 +12783,7 @@
             </div>
         </div>
 
-        <div class="tabla miercoles">
+        <div class="tabla miercoles" data-nombre-ruta="Pausados Miercoles 2">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -12976,7 +12981,7 @@
             </div>
         </div>
 
-        <div class="tabla miercoles">
+        <div class="tabla miercoles" data-nombre-ruta="Disponible Hábil AM">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -13066,7 +13071,7 @@
             </div>
         </div>
 
-        <div class="tabla miercoles">
+        <div class="tabla miercoles" data-nombre-ruta="">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -13152,7 +13157,7 @@
             </div>
         </div>
 
-        <div class="tabla miercoles">
+        <div class="tabla miercoles" data-nombre-ruta="Belmonte AM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -13344,7 +13349,7 @@
             </div>
         </div>
 
-        <div class="tabla miercoles">
+        <div class="tabla miercoles" data-nombre-ruta="Belmonte PM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -13536,7 +13541,7 @@
             </div>
         </div>
 
-        <div class="tabla miercoles">
+        <div class="tabla miercoles" data-nombre-ruta="Guayabal Miercoles AM">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -13768,7 +13773,7 @@
             </div>
         </div>
 
-        <div class="tabla miercoles">
+        <div class="tabla miercoles" data-nombre-ruta="Guayabal Miercoles PM">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -14005,14 +14010,14 @@
             </div>
         </div>
 
-        <div class="tabla miercoles">
+        <div class="tabla miercoles" data-nombre-ruta="Ruta 29 Mirador Hábil y Sábado AM">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
                 <table class="table1 mx-auto table table-bordered border-dark text-center">
                     <!-- Primera fila -->
                     <tr>
-                        <th colspan="3" class="text-light ">Ruta 29 Mirador Hábil y Sabado AM</th>
+                        <th colspan="3" class="text-light ">Ruta 29 Mirador Hábil y Sábado AM</th>
                     </tr>
 
                     <!-- Filas con tres columnas cada una, todas con "tabla" -->
@@ -14167,14 +14172,14 @@
             </div>
         </div>
 
-        <div class="tabla miercoles">
+        <div class="tabla miercoles" data-nombre-ruta="Ruta 29 Mirador Hábil y Sábado PM">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
                 <table class="table1 mx-auto table table-bordered border-dark text-center">
                     <!-- Primera fila -->
                     <tr>
-                        <th colspan="3" class="text-light ">Ruta 29 Mirador Hábil y Sabado PM</th>
+                        <th colspan="3" class="text-light ">Ruta 29 Mirador Hábil y Sábado PM</th>
                     </tr>
 
                     <!-- Filas con tres columnas cada una, todas con "tabla" -->
@@ -14324,7 +14329,7 @@
             </div>
         </div>
 
-        <div class="tabla miercoles">
+        <div class="tabla miercoles" data-nombre-ruta="Guayacanes AM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -14496,7 +14501,7 @@
             </div>
         </div>
 
-        <div class="tabla miercoles">
+        <div class="tabla miercoles" data-nombre-ruta="Guayacanes PM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -14668,7 +14673,7 @@
             </div>
         </div>
 
-        <div class="tabla miercoles">
+        <div class="tabla miercoles" data-nombre-ruta="Miraflores AM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -14835,7 +14840,7 @@
             </div>
         </div>
 
-        <div class="tabla miercoles">
+        <div class="tabla miercoles" data-nombre-ruta="Miraflores PM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -15007,7 +15012,7 @@
             </div>
         </div>
 
-        <div class="tabla miercoles">
+        <div class="tabla miercoles" data-nombre-ruta="Morelia AM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -15189,7 +15194,7 @@
             </div>
         </div>
 
-        <div class="tabla miercoles">
+        <div class="tabla miercoles" data-nombre-ruta="Morelia PM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -15376,7 +15381,7 @@
             </div>
         </div>
 
-        <div class="tabla miercoles">
+        <div class="tabla miercoles" data-nombre-ruta="UTP Hábil AM">
 
             <div class="container1 mt-5 mx-auto">
 
@@ -15522,7 +15527,7 @@
             </div>
         </div>
 
-        <div class="tabla miercoles">
+        <div class="tabla miercoles" data-nombre-ruta="UTP Hábil PM">
 
             <div class="container1 mt-5 mx-auto">
 
@@ -15666,7 +15671,7 @@
             </div>
         </div>
 
-        <div class="tabla miercoles">
+        <div class="tabla miercoles" data-nombre-ruta="2500 Partida Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -15812,7 +15817,7 @@
             </div>
         </div>
 
-        <div class="tabla miercoles">
+        <div class="tabla miercoles" data-nombre-ruta="La Virginia Hábil PM">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -15937,7 +15942,7 @@
             </div>
         </div>
 
-        <div class="tabla miercoles">
+        <div class="tabla miercoles" data-nombre-ruta="Montelibano AM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -16109,7 +16114,7 @@
             </div>
         </div>
 
-        <div class="tabla miercoles">
+        <div class="tabla miercoles" data-nombre-ruta="Montelibano PM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -16281,7 +16286,7 @@
             </div>
         </div>
 
-        <div class="tabla miercoles">
+        <div class="tabla miercoles" data-nombre-ruta="Cerritos AM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -16420,7 +16425,7 @@
             </div>
         </div>
 
-        <div class="tabla miercoles">
+        <div class="tabla miercoles" data-nombre-ruta="Cerritos PM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -16555,7 +16560,7 @@
             </div>
         </div>
 
-        <div class="tabla miercoles">
+        <div class="tabla miercoles" data-nombre-ruta="Descanso">
 
             <table class="table2 mx-auto table table-bordered border-dark text-center mt-5 w-75">
                 <!-- Primera fila -->
@@ -16570,7 +16575,7 @@
         </div>
 
 
-        <div class="tabla jueves">
+        <div class="tabla jueves" data-nombre-ruta="Puerto Caldas Lunes a Sábado">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -16688,7 +16693,7 @@
             </div>
         </div>
 
-        <div class="tabla jueves">
+        <div class="tabla jueves" data-nombre-ruta="Mercasa PM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -16865,7 +16870,7 @@
             </div>
         </div>
 
-        <div class="tabla jueves">
+        <div class="tabla jueves" data-nombre-ruta="Altagracia Partida Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -17012,7 +17017,7 @@
             </div>
         </div>
 
-        <div class="tabla jueves">
+        <div class="tabla jueves" data-nombre-ruta="Cerritos Partida Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -17159,7 +17164,7 @@
             </div>
         </div>
 
-        <div class="tabla jueves">
+        <div class="tabla jueves" data-nombre-ruta="La Virginia Hábil AM">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -17319,7 +17324,7 @@
             </div>
         </div>
 
-        <div class="tabla jueves">
+        <div class="tabla jueves" data-nombre-ruta="Descanso">
             <div class="w-100">
                 <table class="table2 mx-auto table table-bordered border-dark text-center mt-5 w-75 h-25">
                     <!-- Primera fila -->
@@ -17334,7 +17339,7 @@
             </div>
         </div>
 
-        <div class="tabla jueves">
+        <div class="tabla jueves" data-nombre-ruta="Guayacanes Partida Jueves">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -17524,7 +17529,7 @@
             </div>
         </div>
 
-        <div class="tabla jueves">
+        <div class="tabla jueves" data-nombre-ruta="Pausados Jueves 3">
 
             <div class="container1 mt-5 mx-auto">
 
@@ -17717,7 +17722,7 @@
             </div>
         </div>
 
-        <div class="tabla jueves">
+        <div class="tabla jueves" data-nombre-ruta="Pausados Jueves 1">
 
             <div class="container1 mt-5 mx-auto">
 
@@ -17903,7 +17908,7 @@
             </div>
         </div>
 
-        <div class="tabla jueves">
+        <div class="tabla jueves" data-nombre-ruta="Pausados Jueves 2">
 
             <div class="container1 mt-5 mx-auto">
 
@@ -18109,7 +18114,7 @@
             </div>
         </div>
 
-        <div class="tabla jueves">
+        <div class="tabla jueves" data-nombre-ruta="Disponible Hábil AM">
 
             <div class="container1 mt-5 mx-auto">
 
@@ -18246,7 +18251,7 @@
             </div>
         </div>
 
-        <div class="tabla jueves">
+        <div class="tabla jueves" data-nombre-ruta="Disponible Hábil PM">
 
             <div class="container1 mt-5 mx-auto">
 
@@ -18396,7 +18401,7 @@
             </div>
         </div>
 
-        <div class="tabla jueves">
+        <div class="tabla jueves" data-nombre-ruta="Belmonte AM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -18588,7 +18593,7 @@
             </div>
         </div>
 
-        <div class="tabla jueves">
+        <div class="tabla jueves" data-nombre-ruta="Belmonte PM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -18780,7 +18785,7 @@
             </div>
         </div>
 
-        <div class="tabla jueves">
+        <div class="tabla jueves" data-nombre-ruta="1 Guayabal AM">
 
             <div class="container1 mt-5 mx-auto">
 
@@ -19014,7 +19019,7 @@
             </div>
         </div>
 
-        <div class="tabla jueves">
+        <div class="tabla jueves" data-nombre-ruta="1 Guayabal PM">
 
             <div class="container1 mt-5 mx-auto">
 
@@ -19253,14 +19258,14 @@
             </div>
         </div>
 
-        <div class="tabla jueves">
+        <div class="tabla jueves" data-nombre-ruta="Ruta 29 Mirador Hábil y Sábado AM">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
                 <table class="table1 mx-auto table table-bordered border-dark text-center">
                     <!-- Primera fila -->
                     <tr>
-                        <th colspan="3" class="text-light ">Ruta 29 Mirador Hábil y Sabado AM</th>
+                        <th colspan="3" class="text-light ">Ruta 29 Mirador Hábil y Sábado AM</th>
                     </tr>
 
                     <!-- Filas con tres columnas cada una, todas con "tabla" -->
@@ -19415,14 +19420,14 @@
             </div>
         </div>
 
-        <div class="tabla jueves">
+        <div class="tabla jueves" data-nombre-ruta="Ruta 29 Mirador Hábil y Sábado PM">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
                 <table class="table1 mx-auto table table-bordered border-dark text-center">
                     <!-- Primera fila -->
                     <tr>
-                        <th colspan="3" class="text-light ">Ruta 29 Mirador Hábil y Sabado PM</th>
+                        <th colspan="3" class="text-light ">Ruta 29 Mirador Hábil y Sábado PM</th>
                     </tr>
 
                     <!-- Filas con tres columnas cada una, todas con "tabla" -->
@@ -19572,7 +19577,7 @@
             </div>
         </div>
 
-        <div class="tabla jueves">
+        <div class="tabla jueves" data-nombre-ruta="Guayacanes AM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -19744,7 +19749,7 @@
             </div>
         </div>
 
-        <div class="tabla jueves">
+        <div class="tabla jueves" data-nombre-ruta="Guayacanes PM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -19916,7 +19921,7 @@
             </div>
         </div>
 
-        <div class="tabla jueves">
+        <div class="tabla jueves" data-nombre-ruta="2 Guayabal AM">
 
             <div class="container1 mt-5 mx-auto">
 
@@ -20135,7 +20140,7 @@
             </div>
         </div>
 
-        <div class="tabla jueves">
+        <div class="tabla jueves" data-nombre-ruta="2 Guayabal PM">
 
             <div class="container1 mt-5 mx-auto">
 
@@ -20359,7 +20364,7 @@
             </div>
         </div>
 
-        <div class="tabla jueves">
+        <div class="tabla jueves" data-nombre-ruta="Miraflores AM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -20526,7 +20531,7 @@
             </div>
         </div>
 
-        <div class="tabla jueves">
+        <div class="tabla jueves" data-nombre-ruta="Miraflores PM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -20698,7 +20703,7 @@
             </div>
         </div>
 
-        <div class="tabla jueves">
+        <div class="tabla jueves" data-nombre-ruta="Morelia AM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -20880,7 +20885,7 @@
             </div>
         </div>
 
-        <div class="tabla jueves">
+        <div class="tabla jueves" data-nombre-ruta="Morelia PM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -21067,7 +21072,7 @@
             </div>
         </div>
 
-        <div class="tabla jueves">
+        <div class="tabla jueves" data-nombre-ruta="UTP Hábil AM">
 
             <div class="container1 mt-5 mx-auto">
 
@@ -21213,7 +21218,7 @@
             </div>
         </div>
 
-        <div class="tabla jueves">
+        <div class="tabla jueves" data-nombre-ruta="UTP Hábil PM">
 
             <div class="container1 mt-5 mx-auto">
 
@@ -21357,7 +21362,7 @@
             </div>
         </div>
 
-        <div class="tabla jueves">
+        <div class="tabla jueves" data-nombre-ruta="2500 Partida Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -21511,7 +21516,7 @@
             </div>
         </div>
 
-        <div class="tabla jueves">
+        <div class="tabla jueves" data-nombre-ruta="La Virginia Hábil PM">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -21636,7 +21641,7 @@
             </div>
         </div>
 
-        <div class="tabla jueves">
+        <div class="tabla jueves" data-nombre-ruta="Montelibano AM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -21808,7 +21813,7 @@
             </div>
         </div>
 
-        <div class="tabla jueves">
+        <div class="tabla jueves" data-nombre-ruta="Montelibano PM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -21980,7 +21985,7 @@
             </div>
         </div>
 
-        <div class="tabla jueves">
+        <div class="tabla jueves" data-nombre-ruta="Cerritos AM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -22119,7 +22124,7 @@
             </div>
         </div>
 
-        <div class="tabla jueves">
+        <div class="tabla jueves" data-nombre-ruta="Cerritos PM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -22254,7 +22259,7 @@
             </div>
         </div>
 
-        <div class="tabla viernes">
+        <div class="tabla viernes" data-nombre-ruta="Altagracia Partida Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -22401,7 +22406,7 @@
             </div>
         </div>
 
-        <div class="tabla viernes">
+        <div class="tabla viernes" data-nombre-ruta="Cerritos Partida Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -22548,7 +22553,7 @@
             </div>
         </div>
 
-        <div class="tabla viernes">
+        <div class="tabla viernes" data-nombre-ruta="La Virginia Hábil AM">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -22708,7 +22713,7 @@
             </div>
         </div>
 
-        <div class="tabla viernes">
+        <div class="tabla viernes" data-nombre-ruta="Descanso">
             <div class="w-100">
                 <table class="table2 mx-auto table table-bordered border-dark text-center mt-5 w-75 h-25">
                     <!-- Primera fila -->
@@ -22723,7 +22728,7 @@
             </div>
         </div>
 
-        <div class="tabla viernes">
+        <div class="tabla viernes" data-nombre-ruta="Guayacanes Partida Viernes">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -22914,7 +22919,7 @@
             </div>
         </div>
 
-        <div class="tabla viernes">
+        <div class="tabla viernes" data-nombre-ruta="Pausados Viernes 3">
 
             <div class="container1 mt-5 mx-auto">
 
@@ -23106,7 +23111,7 @@
             </div>
         </div>
 
-        <div class="tabla viernes">
+        <div class="tabla viernes" data-nombre-ruta="Puerto Caldas Lunes a Sábado">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -23224,7 +23229,7 @@
             </div>
         </div>
 
-        <div class="tabla viernes">
+        <div class="tabla viernes" data-nombre-ruta="Mercasa PM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -23401,7 +23406,7 @@
             </div>
         </div>
 
-        <div class="tabla viernes">
+        <div class="tabla viernes" data-nombre-ruta="Pausados Viernes 1">
 
             <div class="container1 mt-5 mx-auto">
 
@@ -23587,7 +23592,7 @@
             </div>
         </div>
 
-        <div class="tabla viernes">
+        <div class="tabla viernes" data-nombre-ruta="Pausados Viernes 2">
 
             <div class="container1 mt-5 mx-auto">
 
@@ -23793,7 +23798,7 @@
             </div>
         </div>
 
-        <div class="tabla viernes">
+        <div class="tabla viernes" data-nombre-ruta="Disponible Hábil AM">
 
             <div class="container1 mt-5 mx-auto">
 
@@ -23930,7 +23935,7 @@
             </div>
         </div>
 
-        <div class="tabla viernes">
+        <div class="tabla viernes" data-nombre-ruta="Disponible Hábil PM">
 
             <div class="container1 mt-5 mx-auto">
 
@@ -24080,7 +24085,7 @@
             </div>
         </div>
 
-        <div class="tabla viernes">
+        <div class="tabla viernes" data-nombre-ruta="Belmonte AM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -24272,7 +24277,7 @@
             </div>
         </div>
 
-        <div class="tabla viernes">
+        <div class="tabla viernes" data-nombre-ruta="Belmonte PM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -24464,14 +24469,14 @@
             </div>
         </div>
 
-        <div class="tabla viernes">
+        <div class="tabla viernes" data-nombre-ruta="Ruta 29 Mirador Hábil y Sábado AM">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
                 <table class="table1 mx-auto table table-bordered border-dark text-center">
                     <!-- Primera fila -->
                     <tr>
-                        <th colspan="3" class="text-light ">Ruta 29 Mirador Hábil y Sabado AM</th>
+                        <th colspan="3" class="text-light ">Ruta 29 Mirador Hábil y Sábado AM</th>
                     </tr>
 
                     <!-- Filas con tres columnas cada una, todas con "tabla" -->
@@ -24626,14 +24631,14 @@
             </div>
         </div>
 
-        <div class="tabla viernes">
+        <div class="tabla viernes" data-nombre-ruta="Ruta 29 Mirador Hábil y Sábado PM">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
                 <table class="table1 mx-auto table table-bordered border-dark text-center">
                     <!-- Primera fila -->
                     <tr>
-                        <th colspan="3" class="text-light ">Ruta 29 Mirador Hábil y Sabado PM</th>
+                        <th colspan="3" class="text-light ">Ruta 29 Mirador Hábil y Sábado PM</th>
                     </tr>
 
                     <!-- Filas con tres columnas cada una, todas con "tabla" -->
@@ -24783,7 +24788,7 @@
             </div>
         </div>
 
-        <div class="tabla viernes">
+        <div class="tabla viernes" data-nombre-ruta="Guayacanes AM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -24955,7 +24960,7 @@
             </div>
         </div>
 
-        <div class="tabla viernes">
+        <div class="tabla viernes" data-nombre-ruta="Guayacanes PM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -25128,7 +25133,7 @@
         </div>
 
 
-        <div class="tabla viernes">
+        <div class="tabla viernes" data-nombre-ruta="Miraflores AM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -25295,7 +25300,7 @@
             </div>
         </div>
 
-        <div class="tabla viernes">
+        <div class="tabla viernes" data-nombre-ruta="Miraflores PM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -25467,7 +25472,7 @@
             </div>
         </div>
 
-        <div class="tabla viernes">
+        <div class="tabla viernes" data-nombre-ruta="Morelia AM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -25649,7 +25654,7 @@
             </div>
         </div>
 
-        <div class="tabla viernes">
+        <div class="tabla viernes" data-nombre-ruta="Morelia PM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -25836,7 +25841,7 @@
             </div>
         </div>
 
-        <div class="tabla viernes">
+        <div class="tabla viernes" data-nombre-ruta="2 Guayabal AM">
 
             <div class="container1 mt-5 mx-auto">
 
@@ -26055,7 +26060,7 @@
             </div>
         </div>
 
-        <div class="tabla viernes">
+        <div class="tabla viernes" data-nombre-ruta="2 Guayabal PM">
 
             <div class="container1 mt-5 mx-auto">
 
@@ -26279,7 +26284,7 @@
             </div>
         </div>
 
-        <div class="tabla viernes">
+        <div class="tabla viernes" data-nombre-ruta="1 Guayabal AM">
 
             <div class="container1 mt-5 mx-auto">
 
@@ -26513,7 +26518,7 @@
             </div>
         </div>
 
-        <div class="tabla viernes">
+        <div class="tabla viernes" data-nombre-ruta="1 Guayabal PM">
 
             <div class="container1 mt-5 mx-auto">
 
@@ -26752,7 +26757,7 @@
             </div>
         </div>
 
-        <div class="tabla viernes">
+        <div class="tabla viernes" data-nombre-ruta="UTP Hábil AM">
 
             <div class="container1 mt-5 mx-auto">
 
@@ -26898,7 +26903,7 @@
             </div>
         </div>
 
-        <div class="tabla viernes">
+        <div class="tabla viernes" data-nombre-ruta="UTP Hábil PM">
 
             <div class="container1 mt-5 mx-auto">
 
@@ -27042,7 +27047,7 @@
             </div>
         </div>
 
-        <div class="tabla viernes">
+        <div class="tabla viernes" data-nombre-ruta="2500 Partida Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -27196,7 +27201,7 @@
             </div>
         </div>
 
-        <div class="tabla viernes">
+        <div class="tabla viernes" data-nombre-ruta="La Virginia Hábil PM">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -27321,7 +27326,7 @@
             </div>
         </div>
 
-        <div class="tabla viernes">
+        <div class="tabla viernes" data-nombre-ruta="Montelibano AM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -27493,7 +27498,7 @@
             </div>
         </div>
 
-        <div class="tabla viernes">
+        <div class="tabla viernes" data-nombre-ruta="Montelibano PM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -27665,7 +27670,7 @@
             </div>
         </div>
 
-        <div class="tabla viernes">
+        <div class="tabla viernes" data-nombre-ruta="Cerritos AM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -27804,7 +27809,7 @@
             </div>
         </div>
 
-        <div class="tabla viernes">
+        <div class="tabla viernes" data-nombre-ruta="Cerritos PM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -27940,13 +27945,13 @@
         </div>
 
 
-        <div class="tabla sabado">
+       <div class="tabla sabado" data-nombre-ruta="Tokio Sábado Partida">
             <div class="container1 d-flex mt-5 mx-auto">
 
                 <table class="table1 mx-auto table table-bordered border-dark text-center">
                     <!-- Primera fila -->
                     <tr>
-                        <th colspan="3" class="verde ">Tokio Sabado Partida</th>
+                        <th colspan="3" class="verde ">Tokio Sábado Partida</th>
                     </tr>
 
                     <!-- Filas con tres columnas cada una, todas con "tabla" -->
@@ -28202,7 +28207,7 @@
             </div>
         </div>
 
-        <div class="tabla sabado">
+       <div class="tabla sabado" data-nombre-ruta="Monserrate Sábado Partida">
             <div class="container1 d-flex mt-5 mx-auto">
 
                 <table class="table1 mx-auto table table-bordered border-dark text-center">
@@ -28369,7 +28374,22 @@
             </div>
         </div>
 
-        <div class="tabla sabado">
+        <div class="tabla sabado" data-nombre-ruta="Descanso">
+            <div class="w-100">
+                <table class="table2 mx-auto table table-bordered border-dark text-center mt-5 w-75">
+                    <!-- Primera fila -->
+                    <tr>
+                        <th class="pro p-1 w-50">PROGRAMACIÓN:</th>
+                        <td class="fechaMañana p-1 w-50"></td>
+                    </tr>
+                    <tr>
+                        <th colspan="2" class="amarillo">Descanso</th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+       <div class="tabla sabado" data-nombre-ruta="2500 Sábado">
             <div class="container1 d-flex mt-5 mx-auto">
 
                 <table class="table1 mx-auto table table-bordered border-dark text-center">
@@ -28556,7 +28576,7 @@
             </div>
         </div>
 
-        <div class="tabla sabado">
+       <div class="tabla sabado" data-nombre-ruta="Guayacanes Partida Sábado">
             <div class="container1 d-flex mt-5 mx-auto">
 
                 <table class="table1 mx-auto table table-bordered border-dark text-center">
@@ -28748,7 +28768,7 @@
             </div>
         </div>
 
-        <div class="tabla sabado">
+       <div class="tabla sabado" data-nombre-ruta="Pausados Sábado 1">
             <div class="container1 d-flex mt-5 mx-auto">
 
                 <table class="table1 mx-auto table table-bordered border-dark text-center">
@@ -28919,7 +28939,7 @@
         </div>
 
 
-        <div class="tabla sabado">
+       <div class="tabla sabado" data-nombre-ruta="Pausados Sábado 2">
             <div class="container1 d-flex mt-5 mx-auto">
 
                 <table class="table1 mx-auto table table-bordered border-dark text-center">
@@ -29103,7 +29123,7 @@
             </div>
         </div>
 
-        <div class="tabla sabado">
+       <div class="tabla sabado" data-nombre-ruta="Cerritos Sábado AM">
             <div class="container1 d-flex mt-5 mx-auto">
 
                 <table class="table1 mx-auto table table-bordered border-dark text-center">
@@ -29235,7 +29255,7 @@
             </div>
         </div>
 
-        <div class="tabla sabado">
+       <div class="tabla sabado" data-nombre-ruta="Cerritos Sábado PM">
             <div class="container1 d-flex mt-5 mx-auto">
 
                 <table class="table1 mx-auto table table-bordered border-dark text-center">
@@ -29371,7 +29391,7 @@
             </div>
         </div>
 
-        <div class="tabla sabado">
+       <div class="tabla sabado" data-nombre-ruta="Disponible Sábado AM">
 
             <div class="container1 mt-5 mx-auto">
 
@@ -29453,7 +29473,7 @@
             </div>
         </div>
 
-        <div class="tabla sabado">
+       <div class="tabla sabado" data-nombre-ruta="">
 
             <div class="container1 mt-5 mx-auto">
 
@@ -29536,7 +29556,7 @@
         </div>
 
 
-        <div class="tabla sabado">
+       <div class="tabla sabado" data-nombre-ruta="Cerritos Sábado AM">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -29678,7 +29698,7 @@
             </div>
         </div>
 
-        <div class="tabla sabado">
+       <div class="tabla sabado" data-nombre-ruta="Cerritos PM Hábil">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -29825,7 +29845,7 @@
             </div>
         </div>
 
-        <div class="tabla sabado">
+       <div class="tabla sabado" data-nombre-ruta="Mercasa Sábado AM">
             <div class="container1 d-flex mt-5 mx-auto">
 
                 <table class="table1 mx-auto table table-bordered border-dark text-center">
@@ -30017,7 +30037,7 @@
             </div>
         </div>
 
-        <div class="tabla sabado">
+       <div class="tabla sabado" data-nombre-ruta="Mercasa Sábado PM">
             <div class="container1 d-flex mt-5 mx-auto">
 
                 <table class="table1 mx-auto table table-bordered border-dark text-center">
@@ -30209,7 +30229,7 @@
             </div>
         </div>
 
-        <div class="tabla sabado">
+       <div class="tabla sabado" data-nombre-ruta="UTP Sábado AM">
 
             <div class="container1 mt-5 mx-auto">
 
@@ -30350,7 +30370,7 @@
             </div>
         </div>
 
-        <div class="tabla sabado">
+       <div class="tabla sabado" data-nombre-ruta="UTP Sábado PM">
 
             <div class="container1 mt-5 mx-auto">
 
@@ -30490,14 +30510,14 @@
         </div>
 
 
-        <div class="tabla sabado">
+       <div class="tabla sabado" data-nombre-ruta="Ruta 29 Mirador Hábil y Sábado AM">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
                 <table class="table1 mx-auto table table-bordered border-dark text-center">
                     <!-- Primera fila -->
                     <tr>
-                        <th colspan="3" class="verde ">Ruta 29 Mirador Hábil y Sabado AM</th>
+                        <th colspan="3" class="verde ">Ruta 29 Mirador Hábil y Sábado AM</th>
                     </tr>
 
                     <!-- Filas con tres columnas cada una, todas con "tabla" -->
@@ -30652,14 +30672,14 @@
             </div>
         </div>
 
-        <div class="tabla sabado">
+       <div class="tabla sabado" data-nombre-ruta="Ruta 29 Mirador Hábil y Sábado PM">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
                 <table class="table1 mx-auto table table-bordered border-dark text-center">
                     <!-- Primera fila -->
                     <tr>
-                        <th colspan="3" class="verde ">Ruta 29 Mirador Hábil y Sabado PM</th>
+                        <th colspan="3" class="verde ">Ruta 29 Mirador Hábil y Sábado PM</th>
                     </tr>
 
                     <!-- Filas con tres columnas cada una, todas con "tabla" -->
@@ -30810,7 +30830,7 @@
         </div>
 
 
-        <div class="tabla sabado">
+       <div class="tabla sabado" data-nombre-ruta="Dorado Sábado AM">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -30997,7 +31017,7 @@
             </div>
         </div>
 
-        <div class="tabla sabado">
+       <div class="tabla sabado" data-nombre-ruta="Dorado Sábado PM">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -31190,7 +31210,7 @@
         </div>
 
 
-        <div class="tabla sabado">
+       <div class="tabla sabado" data-nombre-ruta="Morelia Sábado AM">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -31372,7 +31392,7 @@
             </div>
         </div>
 
-        <div class="tabla sabado">
+       <div class="tabla sabado" data-nombre-ruta="Morelia Sábado PM">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -31560,7 +31580,7 @@
         </div>
 
 
-        <div class="tabla sabado">
+       <div class="tabla sabado" data-nombre-ruta="Altagracia Sábado AM 6">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -31702,7 +31722,7 @@
             </div>
         </div>
 
-        <div class="tabla sabado">
+       <div class="tabla sabado" data-nombre-ruta="Altagracia Sábado PM 6">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -31824,7 +31844,7 @@
             </div>
         </div>
 
-        <div class="tabla sabado">
+       <div class="tabla sabado" data-nombre-ruta="Altagracia Sábado AM 7">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -31961,7 +31981,7 @@
             </div>
         </div>
 
-        <div class="tabla sabado">
+       <div class="tabla sabado" data-nombre-ruta="Altagracia Sábado PM 7">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -32084,7 +32104,7 @@
         </div>
 
 
-        <div class="tabla sabado">
+       <div class="tabla sabado" data-nombre-ruta=">Puerto Caldas Sábado">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -32209,7 +32229,7 @@
             </div>
         </div>
 
-        <div class="tabla sabado">
+       <div class="tabla sabado" data-nombre-ruta="Guayacanes Sábado PM">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -32384,7 +32404,7 @@
             </div>
         </div>
 
-        <div class="tabla domingo">
+       <div class="tabla domingo" data-nombre-ruta="1 Pausados Domingo y Festivo">
             <div class="container1 d-flex mt-5 mx-auto">
 
                 <table class="table1 mx-auto table table-bordered border-dark text-center">
@@ -32620,7 +32640,7 @@
             </div>
         </div>
 
-        <div class="tabla domingo">
+       <div class="tabla domingo" data-nombre-ruta="2 Pausados Domingo y Festivo">
             <div class="container1 d-flex mt-5 mx-auto">
 
                 <table class="table1 mx-auto table table-bordered border-dark text-center">
@@ -32825,7 +32845,7 @@
             </div>
         </div>
 
-        <div class="tabla domingo">
+       <div class="tabla domingo" data-nombre-ruta="Puerto Caldas Domingo y Festivo AM">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -32945,7 +32965,7 @@
             </div>
         </div>
 
-        <div class="tabla domingo">
+       <div class="tabla domingo" data-nombre-ruta="Puerto Caldas Domingo y Festivo PM">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -33075,7 +33095,7 @@
             </div>
         </div>
 
-        <div class="tabla domingo">
+       <div class="tabla domingo" data-nombre-ruta="Virginia Domingo y Festivo AM">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -33197,7 +33217,7 @@
             </div>
         </div>
 
-        <div class="tabla domingo">
+       <div class="tabla domingo" data-nombre-ruta="">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -33321,7 +33341,7 @@
             </div>
         </div>
 
-        <div class="tabla domingo">
+       <div class="tabla domingo" data-nombre-ruta="Disponible Domingo y Festivo AM">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -33436,7 +33456,7 @@
             </div>
         </div>
 
-        <div class="tabla domingo">
+       <div class="tabla domingo" data-nombre-ruta="Virginia Domingo y Festivo PM">
 
             <div class="container1 d-flex mt-5 mx-auto">
 
@@ -33548,7 +33568,7 @@
             </div>
         </div>
 
-        <div class="tabla domingo">
+       <div class="tabla domingo" data-nombre-ruta="Naranjito Domingo y Festivo AM">
             <div class="container1 d-flex mt-5 mx-auto">
 
                 <table class="table1 mx-auto table table-bordered border-dark text-center">
@@ -33757,7 +33777,7 @@
             </div>
         </div>
 
-        <div class="tabla domingo">
+       <div class="tabla domingo" data-nombre-ruta="Naranjito Domingo y Festivo PM">
             <div class="container1 d-flex mt-5 mx-auto">
 
                 <table class="table1 mx-auto table table-bordered border-dark text-center">
@@ -33977,7 +33997,7 @@
         </div>
 
 
-        <div class="tabla domingo">
+       <div class="tabla domingo" data-nombre-ruta="Altavista Domingo y Festivo AM">
             <div class="container1 d-flex mt-5 mx-auto">
 
                 <table class="table1 mx-auto table table-bordered border-dark text-center">
@@ -34186,7 +34206,7 @@
             </div>
         </div>
 
-        <div class="tabla domingo">
+       <div class="tabla domingo" data-nombre-ruta="Altavista Domingo y Festivo PM">
             <div class="container1 d-flex mt-5 mx-auto">
 
                 <table class="table1 mx-auto table table-bordered border-dark text-center">
@@ -34400,7 +34420,7 @@
             </div>
         </div>
 
-        <div class="tabla domingo">
+       <div class="tabla domingo" data-nombre-ruta="Miraflores Domingo y Festivos AM">
             <div class="container1 d-flex mt-5 mx-auto">
 
                 <table class="table1 mx-auto table table-bordered border-dark text-center">
@@ -34579,7 +34599,7 @@
             </div>
         </div>
 
-        <div class="tabla domingo">
+       <div class="tabla domingo" data-nombre-ruta="Miraflores Domingo y Festivos PM">
             <div class="container1 d-flex mt-5 mx-auto">
 
                 <table class="table1 mx-auto table table-bordered border-dark text-center">
@@ -34764,7 +34784,7 @@
             </div>
         </div>
 
-        <div class="tabla domingo">
+       <div class="tabla domingo" data-nombre-ruta="Galicia Domingos y Festivos AM">
             <div class="container1 d-flex mt-5 mx-auto">
 
                 <table class="table1 mx-auto table table-bordered border-dark text-center">
@@ -34913,7 +34933,7 @@
             </div>
         </div>
 
-        <div class="tabla domingo">
+       <div class="tabla domingo" data-nombre-ruta="Galicia Domingo y Festivos PM">
             <div class="container1 d-flex mt-5 mx-auto">
 
                 <table class="table1 mx-auto table table-bordered border-dark text-center">
@@ -35072,7 +35092,7 @@
             </div>
         </div>
 
-        <div class="tabla domingo">
+       <div class="tabla domingo" data-nombre-ruta="Guayacanes Domingo y Festivos AM">
             <div class="container1 d-flex mt-5 mx-auto">
 
                 <table class="table1 mx-auto table table-bordered border-dark text-center">
@@ -35261,7 +35281,7 @@
             </div>
         </div>
 
-        <div class="tabla domingo">
+       <div class="tabla domingo" data-nombre-ruta="Guayacanes Domingo y Festivos PM">
             <div class="container1 d-flex mt-5 mx-auto">
 
                 <table class="table1 mx-auto table table-bordered border-dark text-center">
@@ -35455,7 +35475,7 @@
             </div>
         </div>
 
-        <div class="tabla domingo">
+       <div class="tabla domingo" data-nombre-ruta="Cerritos Domingo y Festivo AM">
             <div class="container1 d-flex mt-5 mx-auto">
 
                 <table class="table1 mx-auto table table-bordered border-dark text-center">
@@ -35595,7 +35615,7 @@
             </div>
         </div>
 
-        <div class="tabla domingo">
+       <div class="tabla domingo" data-nombre-ruta="Cerritos Domingo y Festivo PM">
             <div class="container1 d-flex mt-5 mx-auto">
 
                 <table class="table1 mx-auto table table-bordered border-dark text-center">
@@ -35719,7 +35739,7 @@
             </div>
         </div>
 
-        <div class="tabla domingo">
+       <div class="tabla domingo" data-nombre-ruta="Altagracia Domingo y Festivo AM">
             <div class="container1 d-flex mt-5 mx-auto">
 
                 <table class="table1 mx-auto table table-bordered border-dark text-center">
@@ -35859,7 +35879,7 @@
             </div>
         </div>
 
-        <div class="tabla domingo">
+       <div class="tabla domingo" data-nombre-ruta="Altagracia Domingo y Festivo PM">
             <div class="container1 d-flex mt-5 mx-auto">
 
                 <table class="table1 mx-auto table table-bordered border-dark text-center">
@@ -35988,7 +36008,7 @@
             </div>
         </div>
 
-        <div class="tabla domingo">
+       <div class="tabla domingo" data-nombre-ruta="Tokio Domingo y Festivos AM">
             <div class="container1 d-flex mt-5 mx-auto">
 
                 <table class="table1 mx-auto table table-bordered border-dark text-center">
@@ -36268,7 +36288,7 @@
             </div>
         </div>
 
-        <div class="tabla domingo">
+       <div class="tabla domingo" data-nombre-ruta="Tokio Domingo y Festivos PM">
             <div class="container1 d-flex mt-5 mx-auto">
 
                 <table class="table1 mx-auto table table-bordered border-dark text-center">
@@ -36552,7 +36572,7 @@
             </div>
         </div>
 
-        <div class="tabla domingo">
+       <div class="tabla domingo" data-nombre-ruta="Descanso">
 
             <table class="table2 mx-auto table table-bordered border-dark text-center mt-5 w-75">
                 <!-- Primera fila -->
@@ -36566,7 +36586,7 @@
             </table>
         </div>
 
-        <div class="tabla domingo">
+       <div class="tabla domingo" data-nombre-ruta="Descanso">
 
             <table class="table2 mx-auto table table-bordered border-dark text-center mt-5 w-75">
                 <!-- Primera fila -->
@@ -36581,57 +36601,4 @@
         </div>
     </div>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const fechaHoy = new Date();
-            fechaHoy.setDate(fechaHoy.getDate() + 1); // Sumar un día para obtener la fecha de mañana
-
-            // Array de días de la semana
-            const diasSemana = ['domingo', 'lunes', 'martes', 'miercoles', 'jueves', 'viernes', 'sabado'];
-
-            // Obtener el día de la semana actual (0 = domingo, 1 = lunes, ..., 6 = sábado)
-            const diaActual = fechaHoy.getDay();
-
-            // Determinar el día siguiente
-            const diaSiguiente = diasSemana[diaActual];
-
-            // Llamar a la función para mostrar las tablas del día siguiente
-            mostrarTablas(diaSiguiente);
-
-            // Mostrar la fecha para mañana
-            const opciones = {
-                weekday: 'long', // día de la semana completo
-                day: 'numeric', // día del mes como número
-                month: 'long', // mes completo
-                year: 'numeric' // año completo
-            };
-
-            // Obtener la fecha formateada
-            const fechaFormateada = fechaHoy.toLocaleDateString('es-ES', opciones);
-
-            // Asignar la fecha formateada a los elementos correspondientes
-            const elementosFecha = document.querySelectorAll('.fechaMañana');
-            elementosFecha.forEach(elemento => {
-                elemento.textContent = `${fechaFormateada}`;
-            });
-
-            console.log("La fecha para mañana es: " + fechaFormateada); // Depuración de la fecha
-        });
-
-        // Función para mostrar las tablas correspondientes según el día
-        function mostrarTablas(dia) {
-            console.log(`Mostrando tabla para el día: ${dia}`); // Depuración de la función
-
-            const tablas = document.querySelectorAll('.tabla'); // Seleccionar todas las tablas
-            tablas.forEach(tabla => {
-                tabla.style.display = 'none'; // Ocultar todas las tablas
-            });
-
-            // Seleccionar las tablas que correspondan al día
-            const tablaSeleccionada = document.querySelectorAll(`.tabla.${dia}`);
-            tablaSeleccionada.forEach(tabla => {
-                tabla.style.display = 'flex'; // Mostrar la tabla correspondiente con el día
-            });
-        }
-    </script>
 @endsection

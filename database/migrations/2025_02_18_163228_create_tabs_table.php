@@ -14,12 +14,8 @@ return new class extends Migration
         Schema::create('tabs', function (Blueprint $table) {
             $table->id();
             $table->string('code');
-            $table->date('date');
             $table->string('name');
-            $table->unsignedBigInteger('operator_id')->nullable();
             $table->timestamps();
-
-            $table->foreign('operator_id')->references('id')->on('users')->onDelete('cascade');
         });
     }
 
@@ -31,3 +27,4 @@ return new class extends Migration
         Schema::dropIfExists('tabs');
     }
 };
+

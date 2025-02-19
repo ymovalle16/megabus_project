@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\PaginaController;
 use App\Http\Controllers\AdminController;
-
+use App\Http\Controllers\TabController;
 
 
 Route::get('/', function () {
@@ -30,5 +30,5 @@ Route::middleware(['auth'])->group(function () {
     Route::put('admin/editOpe/{id}', [AdminController::class, 'actualizarOperador'])->name('actualizarOperador');
     Route::patch('/admin/buses/{id}', [AdminController::class, 'cambiarEstado'])->name('cambiarEstadoBus');
     Route::get('/admin/tablas', [AdminController::class, 'tablas'])->name('tablas');
-
+    // Route::post('/api/tabs', [TabController::class, 'store']);
 });
