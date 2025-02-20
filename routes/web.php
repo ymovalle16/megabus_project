@@ -30,5 +30,12 @@ Route::middleware(['auth'])->group(function () {
     Route::put('admin/editOpe/{id}', [AdminController::class, 'actualizarOperador'])->name('actualizarOperador');
     Route::patch('/admin/buses/{id}', [AdminController::class, 'cambiarEstado'])->name('cambiarEstadoBus');
     Route::get('/admin/tablas', [AdminController::class, 'tablas'])->name('tablas');
-    // Route::post('/api/tabs', [TabController::class, 'store']);
+    // Route::post('/api/tabs', [TabController::class, 'store']);}
+
+    // Ruta para el dashboard con parámetro opcional $dia
+    Route::get('/admin/indexA/{dia?}', [AdminController::class, 'indexA'])->name('indexA');
+    // Ruta para procesar el formulario de asignación de rutas
+    Route::post('/asignacion-rutas', [AdminController::class, 'asignarRutas'])->name('asignar_rutas');
+
+    
 });
