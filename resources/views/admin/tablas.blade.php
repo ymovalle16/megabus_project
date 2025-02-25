@@ -145,9 +145,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Edwin Quintero</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L01') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
 
@@ -298,9 +307,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Alexander Rojo</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L02') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
 
@@ -507,9 +525,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Francisco Arias</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L03') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
 
@@ -677,9 +704,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">William Castañeda</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L04') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
 
@@ -839,9 +875,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Diego Garcia</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L05') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
 
@@ -1000,9 +1045,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">0</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L06') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
 
@@ -1193,9 +1247,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Juan Miguel Rivillas</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L07') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
 
@@ -1409,9 +1472,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Cesar Osorio</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L08') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
 
@@ -1524,9 +1596,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Anderson Gordillo</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L09') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
 
@@ -1555,7 +1636,16 @@
                     </tr>
                     <tr>
                         <th colspan="1" class="inifin p-0">Compañero que le recibe</tdh>
-                        <td colspan="1" class="inifin p-0">Jorge Yamid Hoyos</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L10') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -1661,9 +1751,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Jorge Yamid Hoyos</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L10') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
 
@@ -1692,7 +1791,16 @@
                     </tr>
                     <tr>
                         <th colspan="1" class="inifin p-0">Compañero al que le recibe</tdh>
-                        <td colspan="1" class="inifin p-0">Anderson Gordillo</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L09') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -1850,9 +1958,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Ferney Medina</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L11') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -1861,7 +1978,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">9:28 A 10:28</th>
-                        <td class="inifin p-0">Cesar Mejia</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L08') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -1886,7 +2012,16 @@
                     </tr>
                     <tr>
                         <th colspan="1" class="inifin p-0">Compañero que le recibe</tdh>
-                        <td colspan="1" class="inifin p-0">Cesar Mejia</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L12') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -2043,9 +2178,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Cesar Mejia</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L12') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -2054,7 +2198,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">18:35 A 19:35</th>
-                        <td class="inifin p-0">Cesar Mejia</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L08') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -2079,7 +2232,16 @@
                     </tr>
                     <tr>
                         <th colspan="1" class="inifin p-0">Compañero al que le recibe</tdh>
-                        <td colspan="1" class="inifin p-0">Ferney Medina</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L11') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -2281,9 +2443,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Ignacio Bermeo</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L13') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -2292,7 +2463,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">7:38 A 8:38</th>
-                        <td class="inifin p-0">Cesar Osorio</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L08') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -2317,7 +2497,16 @@
                     </tr>
                     <tr>
                         <th colspan="1" class="inifin p-0">Compañero que le recibe</tdh>
-                        <td colspan="1" class="inifin p-0">Juan Fernando Quintero</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L14') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -2524,9 +2713,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Juan Fernando Quintero</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L14') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -2535,7 +2733,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">16:18 A 17:18</th>
-                        <td class="inifin p-0">Cesar Osorio</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L08') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -2560,7 +2767,16 @@
                     </tr>
                     <tr>
                         <th colspan="1" class="inifin p-0">Compañero al que le recibe</tdh>
-                        <td colspan="1" class="inifin p-0">Ignacio Bermeo</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L13') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -2697,9 +2913,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Juan Carlos Gomez</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L15') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -2708,7 +2933,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">8:08 A 9:08</th>
-                        <td class="inifin p-0">Juan Miguel Rivillas</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L07') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -2733,7 +2967,16 @@
                     </tr>
                     <tr>
                         <th colspan="1" class="inifin p-0">Compañero que le recibe</tdh>
-                        <td colspan="1" class="inifin p-0">Hugo Molano</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L16') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -2870,9 +3113,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Hugo Molano</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L16') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -2881,7 +3133,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">16:09 A 17:09</th>
-                        <td class="inifin p-0">Francisco Arias</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L03') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -2906,7 +3167,16 @@
                     </tr>
                     <tr>
                         <th colspan="1" class="inifin p-0">Compañero al que le recibe</tdh>
-                        <td colspan="1" class="inifin p-0">Juan Carlos Gomez</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L15') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -3038,9 +3308,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Johan Restrepo</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L17') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -3049,7 +3328,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">6:57 A 8:01</th>
-                        <td class="inifin p-0">Juan Miguel Rivillas</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L07') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -3074,7 +3362,16 @@
                     </tr>
                     <tr>
                         <th colspan="1" class="inifin p-0">Compañero que le recibe</tdh>
-                        <td colspan="1" class="inifin p-0">Fabio Gonzales</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L18') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -3211,9 +3508,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Fabio Gonzales</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L18') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -3222,7 +3528,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">15:01 A 16:03</th>
-                        <td class="inifin p-0">Jorge Yamid Hoyos</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L10') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -3247,7 +3562,16 @@
                     </tr>
                     <tr>
                         <th colspan="1" class="inifin p-0">Compañero al que le recibe</tdh>
-                        <td colspan="1" class="inifin p-0">Johan Restrepo</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L17') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -3395,9 +3719,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">James Marulanda</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L19') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -3406,7 +3739,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">10:34 A 11:38</th>
-                        <td class="inifin p-0">Juan Miguel Rivillas</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L07') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -3431,7 +3773,16 @@
                     </tr>
                     <tr>
                         <th colspan="1" class="inifin p-0">Compañero que le recibe</tdh>
-                        <td colspan="1" class="inifin p-0">Jhon Alexander Valencia</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L20') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -3584,9 +3935,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Jhon Alexander Valencia</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L20') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -3595,7 +3955,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">17:30 A 18:34</th>
-                        <td class="inifin p-0">Francisco Arias</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L03') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -3620,7 +3989,16 @@
                     </tr>
                     <tr>
                         <th colspan="1" class="inifin p-0">Compañero al que le recibe</tdh>
-                        <td colspan="1" class="inifin p-0">James Marulanda</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L19') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -3808,9 +4186,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Brayan Fernando Duque</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L21') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -3819,7 +4206,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">6:48 A 7:28</th>
-                        <td class="inifin p-0">Cesar Osorio</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L08') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -3844,7 +4240,16 @@
                     </tr>
                     <tr>
                         <th colspan="1" class="inifin p-0">Compañero que le recibe</tdh>
-                        <td colspan="1" class="inifin p-0">Julio Arias</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L22') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -4036,9 +4441,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Julio Arias</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L22') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -4047,7 +4461,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">15:28 A 16:08</th>
-                        <td class="inifin p-0">Cesar Osorio</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L08') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -4072,7 +4495,16 @@
                     </tr>
                     <tr>
                         <th colspan="1" class="inifin p-0">Compañero al que le recibe</tdh>
-                        <td colspan="1" class="inifin p-0">Brayan Fernando Duque</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L21') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -4183,9 +4615,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Jose Manuel Naranjo</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L23') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -4194,7 +4635,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">8:40 A 9:35</th>
-                        <td class="inifin p-0">Edwin Quintero</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L01') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -4219,7 +4669,16 @@
                     </tr>
                     <tr>
                         <th colspan="1" class="inifin p-0">Compañero que le recibe</tdh>
-                        <td colspan="1" class="inifin p-0">Andres Gomez</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L24') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -4330,9 +4789,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Andres Gomez</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L24') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -4341,7 +4809,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">17:02 A 18:01</th>
-                        <td class="inifin p-0">Juan Miguel Rivillas</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L07') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -4366,7 +4843,16 @@
                     </tr>
                     <tr>
                         <th colspan="1" class="inifin p-0">Compañero al que le recibe</tdh>
-                        <td colspan="1" class="inifin p-0">Jose Manuel Naranjo</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L23') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -4484,9 +4970,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Derian Salazar</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L25') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -4495,7 +4990,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">8:35 A 10:17(subir a retanquear)</th>
-                        <td class="inifin p-0">N/A</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == '') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -4520,7 +5024,16 @@
                     </tr>
                     <tr>
                         <th colspan="1" class="inifin p-0">Compañero que le recibe</tdh>
-                        <td colspan="1" class="inifin p-0">Juan Ibañez</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L26') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -4608,9 +5121,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Juan Ibañez</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L26') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -4619,7 +5141,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">13:21 A 16:23</th>
-                        <td class="inifin p-0">Juan Miguel Rivillas</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L07') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -4644,7 +5175,16 @@
                     </tr>
                     <tr>
                         <th colspan="1" class="inifin p-0">Compañero al que le recibe</tdh>
-                        <td colspan="1" class="inifin p-0">Derian Salazar</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L25') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -4779,9 +5319,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Alejandro Rodriguez</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L27') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -4790,7 +5339,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">9:20 A 10:20</th>
-                        <td class="inifin p-0">Juan Miguel Rivillas</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L07') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -4815,7 +5373,16 @@
                     </tr>
                     <tr>
                         <th colspan="1" class="inifin p-0">Compañero que le recibe</tdh>
-                        <td colspan="1" class="inifin p-0">Daniel Carvajal</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L28') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -4951,9 +5518,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Daniel Carvajal</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L28') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -4962,7 +5538,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">14:50 A 15:50</th>
-                        <td class="inifin p-0">Francisco Arias</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L03') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -4987,7 +5572,16 @@
                     </tr>
                     <tr>
                         <th colspan="1" class="inifin p-0">Compañero al que le recibe</tdh>
-                        <td colspan="1" class="inifin p-0">Alejandro Rodriguez</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L27') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -5091,9 +5685,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Jorge Luis Correa</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L29') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -5102,7 +5705,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">8:49 A 10:00(para con carro)</th>
-                        <td class="inifin p-0">Alexander Rojo</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L02') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -5127,7 +5739,16 @@
                     </tr>
                     <tr>
                         <th colspan="1" class="inifin p-0">Compañero que le recibe</tdh>
-                        <td colspan="1" class="inifin p-0">Luis Carlos Garcia</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L30') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -5228,9 +5849,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Luis Carlos Garcia</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L30') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -5239,7 +5869,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">16:24 A 17:26</th>
-                        <td class="inifin p-0">Jorge Yamid Hoyos</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L10') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -5264,7 +5903,16 @@
                     </tr>
                     <tr>
                         <th colspan="1" class="inifin p-0">Compañero al que le recibe</tdh>
-                        <td colspan="1" class="inifin p-0">Jorge Luis Correa</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L29') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -5358,9 +6006,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Didier Escudero</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L31') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -5369,7 +6026,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">10:06 A 11:32</th>
-                        <td class="inifin p-0">Anderson Gordillo</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L09') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -5533,9 +6199,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Fernando Jaramillo</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L32') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -5544,7 +6219,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">18:54 A 19:57</th>
-                        <td class="inifin p-0">Francisco Arias</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'L03') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -5723,9 +6407,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Alejandro Rodriguez</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M01') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
 
@@ -5875,9 +6568,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Jorge Yamid Hoyos</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M02') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
 
@@ -5996,9 +6698,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Didier Escudero</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M03') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
 
@@ -6164,9 +6875,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Fernando Jaramillo</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M04') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -6175,7 +6895,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">18:54 A 19:57</th>
-                        <td class="inifin p-0">Anderson Gordillo</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M05') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -6361,9 +7090,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Anderson Gordillo</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M05') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -6545,9 +7283,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">0</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M06') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -6736,9 +7483,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Juan Miguel Rivillas</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M07') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -6943,9 +7699,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Daniel Carvajal</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M08') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -7088,9 +7853,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Stiven Giraldo</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M09') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
 
@@ -7262,9 +8036,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Edwin Quintero</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M12') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -7273,7 +8056,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">8:35 a 10:17 (subir a retanquear)</th>
-                        <td class="inifin p-0">N/A</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == '') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -7297,7 +8089,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Juan Miguel Rivillas</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M07') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -7387,9 +8188,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Wilmar Ladino</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M13') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -7398,7 +8208,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">13:21 a 16:23</th>
-                        <td class="inifin p-0">Juan Miguel Rivillas</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M07') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -7422,7 +8241,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Juan Miguel Rivillas</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M07') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -7539,9 +8367,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Jorge Luis Correa</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M14') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -7550,7 +8387,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">9:00 a 9:40</th>
-                        <td class="inifin p-0">Hector Cobos</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M20') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -7574,7 +8420,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Luis Carlos Garcia</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M15') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -7691,9 +8546,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Luis Carlos Garcia</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M15') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -7702,7 +8566,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">16:28 a 17:12</th>
-                        <td class="inifin p-0">0</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M06') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -7726,7 +8599,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Jorge Luis Correa</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M14') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -7838,9 +8720,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Francisco Arias</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M16') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -7849,7 +8740,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">8:40 a 9:35</th>
-                        <td class="inifin p-0">Steven Giraldo</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M09') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -7873,7 +8773,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">William Castañeda</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M17') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -7985,9 +8894,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">William Castañeda</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M17') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -7996,7 +8914,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">17:02 a 18:01</th>
-                        <td class="inifin p-0">Juan Miguel Rivillas</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M07') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -8020,7 +8947,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Francisco Arias</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M16') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -8126,9 +9062,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Juan Carlos Gomez</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M18') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -8137,7 +9082,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">8:49 a 10:00 (para con carro)</th>
-                        <td class="inifin p-0">Jorge Yamid Hoyos</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M02') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -8161,7 +9115,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Hugo Molano</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M19') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -8263,9 +9226,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Hugo Molano</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M19') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -8274,7 +9246,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">17:26 a 18:29</th>
-                        <td class="inifin p-0">Anderson Gordillo</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M05') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -8298,7 +9279,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Juan Carlos Gomez</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M18') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -8403,9 +9393,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Hector Cobos</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M20') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -8433,7 +9432,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Juan Ibañez</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M21') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -8550,9 +9558,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Juan Ibañez</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M21') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -8580,7 +9597,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Hector Cobos</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M20') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -8712,9 +9738,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Ferney Medina</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M22') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -8723,7 +9758,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">6:57 a 8:01</th>
-                        <td class="inifin p-0">Juan Miguel Rivillas</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M07') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -8747,7 +9791,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Cesar Mejia</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M23') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -8884,9 +9937,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Cesar Mejia</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M23') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -8895,7 +9957,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">15:01 a 16:03</th>
-                        <td class="inifin p-0">0</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M06') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -8919,7 +9990,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Ferney Medina</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M22') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -9056,9 +10136,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Jose Manuel Naranjo</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M24') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -9067,7 +10156,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">8:08 a 9:08</th>
-                        <td class="inifin p-0">Juan Miguel Rivillas</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M07') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -9091,7 +10189,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Andres Gomez</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M25') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -9228,9 +10335,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Andres Gomez</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M25') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -9239,7 +10355,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">16:09 a 17:09</th>
-                        <td class="inifin p-0">Anderson Gordillo</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M05') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -9263,7 +10388,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Jose Manuel Naranjo</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M24') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -9464,9 +10598,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Brayan Fernando Duque</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M26') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -9475,7 +10618,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">7:38 a 8:38</th>
-                        <td class="inifin p-0">Daniel Carvajal</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M08') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -9499,7 +10651,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Julio Arias</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M27') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -9705,9 +10866,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Julio Arias</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M27') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -9716,7 +10886,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">16:18 a 17:18</th>
-                        <td class="inifin p-0">Daniel Carvajal</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M08') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -9740,7 +10919,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Brayan Fernando Duque</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M26') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -9925,9 +11113,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Ignacio Bermeo</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M28') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -9936,7 +11133,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">6:48 a 7:28</th>
-                        <td class="inifin p-0">Daniel Carvajal</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M08') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -9960,7 +11166,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Juan Fernando Quintero</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M29') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -10150,9 +11365,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Juan Fernando Quintero</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M29') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -10161,7 +11385,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">15:28 a 16:08</th>
-                        <td class="inifin p-0">Daniel Carvajal</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M08') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -10185,7 +11418,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Ignacio Bermeo</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M28') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -10322,9 +11564,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">James Marulanda</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M30') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -10333,7 +11584,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">9:20 a 10:20</th>
-                        <td class="inifin p-0">Juan Miguel Rivillas</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M07') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -10357,7 +11617,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Jhon Alexander Valencia</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M31') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -10494,9 +11763,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Jhon Alexander Valencia</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M31') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -10505,7 +11783,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">14:50 a 15:50</th>
-                        <td class="inifin p-0">Anderson Gordillo</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M05') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -10529,7 +11816,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">James Marulanda</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M30') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -10686,9 +11982,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Alexander Rojo</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M32') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -10697,7 +12002,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">9:28 a 10:28</th>
-                        <td class="inifin p-0">Daniel Carvajal</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M08') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -10721,7 +12035,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Cesar Osorio</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M33') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -10878,9 +12201,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Cesar Osorio</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M33') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -10889,7 +12221,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">18:05 a 19:05</th>
-                        <td class="inifin p-0">Anderson Gordillo</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M05') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -10913,7 +12254,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Alexander Rojo</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M32') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -11060,9 +12410,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Johan Restrepo</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M34') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -11071,7 +12430,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">10:34 a 11:38</th>
-                        <td class="inifin p-0">Juan Miguel Rivillas</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M07') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -11095,7 +12463,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Fabio Gonzales</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M35') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -11247,9 +12624,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Fabio Gonzales</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M35') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -11258,7 +12644,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">17:30 a 18:34</th>
-                        <td class="inifin p-0">Daniel Carvajal</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M08') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -11282,7 +12677,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Johan Restrepo</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'M34') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -11406,9 +12810,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Juan Carlos Gomez</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC01') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
 
@@ -11557,9 +12970,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Hector Cobos</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC02') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}
                         </td>
                     </tr>
 
@@ -11744,9 +13166,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Hugo Molano</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC03') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
 
@@ -11936,9 +13367,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Andres Gomez</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC04') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -12100,9 +13540,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Jose Manuel Naranjo</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC05') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -12254,9 +13703,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Diego Garcia</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC06') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -12265,7 +13723,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">18:09 a 19:15</th>
-                        <td class="inifin p-0">Hugo Molano</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC03') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -12379,9 +13846,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Didier Escudero</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC07') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -12390,7 +13866,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">8:36 a 10:06</th>
-                        <td class="inifin p-0">Hugo Molano</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC03') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -12553,9 +14038,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Fernando Jaramillo</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC08') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -12564,7 +14058,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">18:54 a 19:57</th>
-                        <td class="inifin p-0">Andres Gomez</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC04') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -12748,9 +14251,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Juan Miguel Rivillas</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC09') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
 
@@ -12946,9 +14458,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Cesar Osorio</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC10') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
 
@@ -13030,9 +14551,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Edwin Quintero</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC11') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -13060,7 +14590,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Wilmar Ladino</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC12') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -13116,9 +14655,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Wilmar Ladino</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC12') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -13146,7 +14694,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Edwin Quintero</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC11') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -13303,9 +14860,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Jorge Luis Correa</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC13') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -13314,7 +14880,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">9:58 a 10:58</th>
-                        <td class="inifin p-0">Cesar Osorio</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC10') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -13338,7 +14913,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Luis Carlos Garcia</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC14') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -13495,9 +15079,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Luis Carlos Garcia</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC14') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -13506,7 +15099,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">19:35 a 20:35</th>
-                        <td class="inifin p-0">Cesar Osorio</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC10') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -13530,7 +15132,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Jorge Luis Correa</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC13') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -13727,9 +15338,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Ignacio Bermeo</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC15') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -13738,7 +15358,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">6:38 a 7:18</th>
-                        <td class="inifin p-0">Cesar Osorio</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC10') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -13762,7 +15391,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Juan Fernando Quintero</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC16') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -13964,9 +15602,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Juan Fernando Quintero</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC16') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -13975,7 +15622,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">15:58 a 16:38</th>
-                        <td class="inifin p-0">Cesar Osorio</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC10') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -13999,7 +15655,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Ignacio Bermeo</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC15') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -14126,9 +15791,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">James Marulanda</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC17') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -14137,7 +15811,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">8:07 a 9:33</th>
-                        <td class="inifin p-0">Cesar Osorio</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC10') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -14161,7 +15844,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Jhon Alexander Valencia</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC18') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -14283,9 +15975,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Jhon Alexander Valencia</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC18') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -14294,7 +15995,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">17:33 a 19:16</th>
-                        <td class="inifin p-0">Cesar Osorio</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC10') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -14318,7 +16028,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">James Marulanda</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC17') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -14455,9 +16174,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Francisco Arias</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC19') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -14466,7 +16194,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">8:08 a 9:08</th>
-                        <td class="inifin p-0">Juan Miguel Rivillas</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC09') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -14490,7 +16227,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">William Castañeda</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC20') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -14627,9 +16373,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Willian Castañeda</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC20') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -14638,7 +16393,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">16:09 a 17:09</th>
-                        <td class="inifin p-0">Andres Gomez</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC04') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -14662,7 +16426,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Francisco arias</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC19') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -14794,9 +16567,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Alexander Rojo</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC21') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -14805,7 +16587,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">6:57 a 8:01</th>
-                        <td class="inifin p-0">Juan Miguel Rivillas</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC09') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -14829,7 +16620,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Stiven Giraldo</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC22') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -14966,9 +16766,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Stiven Giraldo</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC22') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -14977,7 +16786,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">15:01 a 16:03</th>
-                        <td class="inifin p-0">Hugo Molano</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC03') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -15001,7 +16819,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Alexander Rojo</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC21') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -15148,9 +16975,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Ferney Medina</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC23') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -15159,7 +16995,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">10:34 a 11:38</th>
-                        <td class="inifin p-0">Juan Miguel Rivillas</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC09') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -15183,7 +17028,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Cesar Mejia</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC24') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -15335,9 +17189,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Cesar Mejia</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC24') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -15346,7 +17209,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">17:30 a 18:34</th>
-                        <td class="inifin p-0">Andres Gomez</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC04') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -15370,7 +17242,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Ferney Medina</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC23') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -15481,9 +17362,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Anderson Gordillo</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC25') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -15492,7 +17382,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">8:40 a 9:35</th>
-                        <td class="inifin p-0">Juan Carlos Gomez</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC01') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -15516,7 +17415,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Jorge Yamid Hoyos</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC26') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -15625,9 +17533,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Jorge Yamid Hoyos</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC26') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -15636,7 +17553,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">17:02 a 18:01</th>
-                        <td class="inifin p-0">Juan Miguel Rivillas</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC09') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -15660,7 +17586,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Anderson Gordillo</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC25') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -15779,9 +17714,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Alejandro Rodriguez</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC27') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -15806,7 +17750,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Juan Miguel Rivillas</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC09') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -15896,9 +17849,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Daniel Carvajal</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC28') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -15907,7 +17869,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">13:21 a 16:23</th>
-                        <td class="inifin p-0">Juan Miguel Rivillas</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC09') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -15931,7 +17902,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Juan Miguel Rivillas</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC09') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -16068,9 +18048,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Johan Restrepo</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC29') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -16079,7 +18068,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">9:20 a 10:20</th>
-                        <td class="inifin p-0">Juan Miguel Rivillas</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC09') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -16103,7 +18101,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Fabio Gonzales</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC30') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -16240,9 +18247,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Fabio Gonzales</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC30') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -16251,7 +18267,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">16:50 a 17:50</th>
-                        <td class="inifin p-0">Andres Gomez</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC04') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -16275,7 +18300,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Johan Restrepo</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC29') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -16379,9 +18413,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Derian Salazar</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC31') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -16390,7 +18433,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">8:49 a 10:00 (Para con carro)</th>
-                        <td class="inifin p-0">Hector Cobos</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC02') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -16414,7 +18466,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Juan Ibañez</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC32') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -16514,9 +18575,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Juan Ibañez</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC32') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -16525,7 +18595,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">16:24 a 17:26</th>
-                        <td class="inifin p-0">Hugo Molano</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC03') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -16549,7 +18628,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Derian Salazar</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'MC31') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -16659,9 +18747,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Didier Escudero</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J01') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
 
@@ -16828,9 +18925,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Fernando Jaramillo</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J02') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -16839,7 +18945,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">18:54 a 19:57</th>
-                        <td class="inifin p-0">Juan Ibañez</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'j07') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -16981,9 +19096,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Fabio Gonzales</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J03') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
 
@@ -17128,9 +19252,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Francisco Arias</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J04') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -17292,9 +19425,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">William Castañeda</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J05') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -17493,9 +19635,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Juan Ibañez</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J07') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -17684,9 +19835,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">0</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J08') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -17874,9 +20034,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Juan Miguel Rivillas</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J09') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -18080,9 +20249,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Cesar Osorio</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J10') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -18210,9 +20388,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Alejandro Rodriguez</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J11') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -18240,7 +20427,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Daniel Carvajal</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J12') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -18360,9 +20556,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Daniel Carvajal</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J12') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -18390,7 +20595,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Alejandro Rodriguez</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J11') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -18547,9 +20761,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Edwin Quintero</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J13') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -18558,7 +20781,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">8:58 a 9:58</th>
-                        <td class="inifin p-0">0</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J08') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -18582,7 +20814,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Wilmar Ladino</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J14') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -18739,9 +20980,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Wilmer Ladino</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J14') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -18750,7 +21000,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">17:33 A 18:35</th>
-                        <td class="inifin p-0">0</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J08') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -18774,7 +21033,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Edwin Quintero</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J13') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -18973,9 +21241,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Brayan Fernando Duque</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J15') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -18984,7 +21261,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">7:38 A 8:38</th>
-                        <td class="inifin p-0">Cesar Osorio</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J10') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -19008,7 +21294,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Julio Arias</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J16') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -19212,9 +21507,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Julio Arias</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J16') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -19223,7 +21527,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">16:18 A 17:18</th>
-                        <td class="inifin p-0">Cesar Osorio</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J10') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -19247,7 +21560,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Brayan Fernando Duque</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J15') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -19374,9 +21696,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Hector Cobos</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J17') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -19385,7 +21716,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">9:33 a 10:57</th>
-                        <td class="inifin p-0">Cesar Osorio</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J10') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -19409,7 +21749,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Diego Garcia</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J18') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -19531,9 +21880,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Diego Garcia</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J18') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -19542,7 +21900,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">18:24 a 20:08</th>
-                        <td class="inifin p-0">Cesar Osorio</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J10') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -19566,7 +21933,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Hector Cobos</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J17') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -19703,9 +22079,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Jorge Luis Correa</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J19') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -19714,7 +22099,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">8:08 a 9:08</th>
-                        <td class="inifin p-0">Juan Miguel Rivillas</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J09') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -19738,7 +22132,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Luis Carlos Garcia</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J20') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -19875,9 +22278,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Luis Carlos Garcia</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J20') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -19886,7 +22298,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">16:09 a 17:09</th>
-                        <td class="inifin p-0">Juan Ibañez</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J07') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -19910,7 +22331,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Jorge Luis Correa</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J19') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -20094,9 +22524,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Ignacio Bermeo</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J21') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -20105,7 +22544,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">6:48 A 7:28</th>
-                        <td class="inifin p-0">Cesar Osorio</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J10') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -20129,7 +22577,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Juan Fernando Quintero</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J22') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -20318,9 +22775,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Juan Fernando Quintero</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J22') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -20329,7 +22795,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">15:28 A 16:08</th>
-                        <td class="inifin p-0">Cesar Osorio</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J10') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -20353,7 +22828,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Ignacio Bermeo</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J21') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -20485,9 +22969,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Anderson Gordillo</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J23') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -20496,7 +22989,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">6:57 a 8:01</th>
-                        <td class="inifin p-0">Juan Miguel Rivillas</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J09') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -20520,7 +23022,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Jorge Yamid Hoyos</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J24') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -20657,9 +23168,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Jorge Yamid Hoyos</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J24') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -20668,7 +23188,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">15:01 a 16:03</th>
-                        <td class="inifin p-0">0</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J08') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -20692,7 +23221,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Anderson Gordillo</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J23') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -20839,9 +23377,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Jose Manuel Naranjo</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J25') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -20850,7 +23397,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">10:34 a 11:38</th>
-                        <td class="inifin p-0">Juan Miguel Rivillas</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J09') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -20874,7 +23430,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Andres Gomez</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J26') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -21026,9 +23591,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Andres Gomez</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J26') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -21037,7 +23611,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">17:30 a 18:34</th>
-                        <td class="inifin p-0">Juan Ibañez</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J07') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -21061,7 +23644,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Jose Manuel Naranjo</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J25') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -21172,9 +23764,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Juan Carlos Gomez</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J27') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -21183,7 +23784,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">8:40 a 9:35</th>
-                        <td class="inifin p-0">Fabio Gonzales</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J03') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -21207,7 +23817,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Hugo Molano</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J28') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -21316,9 +23935,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Hugo Molano</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J28') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -21327,7 +23955,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">17:02 a 18:01</th>
-                        <td class="inifin p-0">Juan Miguel Rivillas</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J09') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -21351,7 +23988,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Juan Carlos Gomez</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J27') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -21470,9 +24116,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Johan Restrepo</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J29') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -21481,7 +24136,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">8:35 a 10:17 (Sube a Retanquear)</th>
-                        <td class="inifin p-0">N/A</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == '') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -21505,7 +24169,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Stiven Giraldo</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J30') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -21595,9 +24268,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Stiven Giraldo</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J30') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -21606,7 +24288,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">13:21 a 16:23</th>
-                        <td class="inifin p-0">Juan Miguel Rivillas</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J09') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -21630,7 +24321,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Johan Restrepo</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J29') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -21767,9 +24467,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Derian Salazar</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J31') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -21778,7 +24487,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">9:20 a 10:20</th>
-                        <td class="inifin p-0">Juan Miguel Rivillas</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J09') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -21802,7 +24520,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Alexander Rojo</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J32') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -21939,9 +24666,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Alexander Rojo</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J32') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -21950,7 +24686,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">16:50 a 17:50</th>
-                        <td class="inifin p-0">Juan Ibañez</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J07') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -21974,7 +24719,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Derian Salazar</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J31') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -22078,9 +24832,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">James Marulanda</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J33') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -22089,7 +24852,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">8:49 a 10:00 (Para con carro)</th>
-                        <td class="inifin p-0">Francisco Arias</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J04') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -22113,7 +24885,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Jhon Alexander Valencia</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J34') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -22213,9 +24994,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Jhon Alexander Valencia</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J34') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -22224,7 +25014,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">16:24 a 17:26</th>
-                        <td class="inifin p-0">0</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J08') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -22248,7 +25047,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">James Marulanda</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'J33') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -22370,9 +25178,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">James Marulanda</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V01') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
 
@@ -22517,9 +25334,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Jorge Luis Correa</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V02') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -22681,9 +25507,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Johan Restrepo</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V03') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -22883,9 +25718,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Luis Carlos Garcia</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V05') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -23073,9 +25917,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">0</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V06') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -23195,9 +26048,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Didier Escudero</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V07') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
 
@@ -23364,9 +26226,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Fernando Jaramillo</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V08') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -23375,7 +26246,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">18:54 a 19:57</th>
-                        <td class="inifin p-0">James Marulanda</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V01') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -23558,9 +26438,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Juan Miguel Rivillas</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V09') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -23764,9 +26653,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Jhon Alexander Valencia</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V10') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -23894,9 +26792,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Cesar Mejia</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V11') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -23924,7 +26831,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Fabio Gonzales</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V12') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -24044,9 +26960,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Fabio Gonzales</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V12') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -24074,7 +26999,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Cesar Mejia</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V11') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -24231,9 +27165,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Alejandro Rodriguez</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V13') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -24242,7 +27185,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">8:58 a 9:58</th>
-                        <td class="inifin p-0">0</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V06') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -24266,7 +27218,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Daniel Carvajal</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V14') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -24423,9 +27384,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Daniel Carvajal</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V14') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -24434,7 +27404,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">17:33 A 18:35</th>
-                        <td class="inifin p-0">0</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V06') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -24458,7 +27437,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Alejandro Rodriguez</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V13') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -24585,9 +27573,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Ferney Medina</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V15') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -24596,7 +27593,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">9:33 a 10:57</th>
-                        <td class="inifin p-0">Jhon Alexander Valencia</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V10') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -24620,7 +27626,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Stiven Giraldo</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V16') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -24742,9 +27757,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Stiven Giraldo</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V16') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -24753,7 +27777,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">18:24 a 20:08</th>
-                        <td class="inifin p-0">Jhon Alexander Valencia</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V10') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -24777,7 +27810,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Ferney Medina</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V15') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -24914,9 +27956,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Hector Cobos</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V17') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -24925,7 +27976,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">8:08 a 9:08</th>
-                        <td class="inifin p-0">Juan Miguel Rivillas</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V09') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -24949,7 +28009,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Diego Garcia</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V18') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -25086,9 +28155,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Diego Garcia</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V18') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -25097,7 +28175,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">16:09 a 17:09</th>
-                        <td class="inifin p-0">James Marulanda</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V01') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -25121,7 +28208,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Hector Cobos</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V17') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -25254,9 +28350,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Juan Carlos Gomez</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V19') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -25265,7 +28370,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">6:57 a 8:01</th>
-                        <td class="inifin p-0">Juan Miguel Rivillas</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V09') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -25289,7 +28403,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Hugo Molano</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V20') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -25426,9 +28549,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Hugo Molano</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V20') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -25437,7 +28569,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">15:01 a 16:03</th>
-                        <td class="inifin p-0">0</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V06') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -25461,7 +28602,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Juan Carlos Gomez</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V19') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -25608,9 +28758,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Francisco Arias</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V21') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -25619,7 +28778,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">10:34 a 11:38</th>
-                        <td class="inifin p-0">Juan Miguel Rivillas</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V09') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -25643,7 +28811,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">William Castañeda</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V22') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -25795,9 +28972,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">William Castañeda</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V22') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -25806,7 +28992,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">17:30 a 18:34</th>
-                        <td class="inifin p-0">James Marulanda</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V01') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -25830,7 +29025,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Francisco Arias</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V21') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -26014,9 +29218,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Brayan Fernando Duque</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V23') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -26025,7 +29238,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">6:48 A 7:28</th>
-                        <td class="inifin p-0">Jhon Alexander Valencia</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V10') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -26049,7 +29271,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Julio Arias</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V24') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -26238,9 +29469,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Julio Arias</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V24') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -26249,7 +29489,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">15:28 A 16:08</th>
-                        <td class="inifin p-0">Jhon Alexander Valencia</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V10') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -26273,7 +29522,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Brayan Fernando Duque</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V23') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -26472,9 +29730,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Ignacio Bermeo</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V25') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -26483,7 +29750,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">7:38 A 8:38</th>
-                        <td class="inifin p-0">Jhon Alexander Valencia</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V10') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -26507,7 +29783,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Juan Fernando Quintero</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V26') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -26711,9 +29996,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Juan Fernando Quintero</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V26') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -26722,7 +30016,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">16:18 A 17:18</th>
-                        <td class="inifin p-0">Jhon Alexander Valencia</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V10') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -26746,7 +30049,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Ignacio Bermeo</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V25') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -26857,9 +30169,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Derian Salazar</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V27') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -26868,7 +30189,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">8:40 a 9:35</th>
-                        <td class="inifin p-0">James Marulanda</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V01') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -26892,7 +30222,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Juan Ibañez</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V28') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -27001,9 +30340,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Juan Ibañez</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V28') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -27012,7 +30360,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">17:02 a 18:01</th>
-                        <td class="inifin p-0">Juan Miguel Rivillas</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V09') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -27036,7 +30393,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Derian Salazar</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V27') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -27155,9 +30521,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Anderson Gordillo</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V29') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -27166,7 +30541,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">N/A</th>
-                        <td class="inifin p-0">N/A</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == '') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -27190,7 +30574,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Juan Miguel Rivillas</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V30') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -27280,9 +30673,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Jorge Yamid Hoyos</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V30') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -27291,7 +30693,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">13:21 a 16:23</th>
-                        <td class="inifin p-0">Juan Miguel Rivillas</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V09') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -27315,7 +30726,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Juan Miguel Rivillas</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V29') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -27452,9 +30872,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Jose Manuel Naranjo</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V31') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -27463,7 +30892,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">9:20 a 10:20</th>
-                        <td class="inifin p-0">Juan Miguel Rivillas</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V09') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -27487,7 +30925,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Andres Gomez</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V32') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -27624,9 +31071,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Andres Gomez</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V32') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -27635,7 +31091,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">16:50 a 17:50</th>
-                        <td class="inifin p-0">James Marulanda</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V01') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -27659,7 +31124,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Jose Manuel Naranjo</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V31') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -27763,9 +31237,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Edwin Quintero</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V33') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -27774,7 +31257,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">8:49 a 10:00 (Para con carro)</th>
-                        <td class="inifin p-0">Jorge Luis Correa</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V02') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -27798,7 +31290,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Wilmar Ladino</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V34') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -27898,9 +31399,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Wilmar Ladino</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V34') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -27909,7 +31419,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">16:24 a 17:26</th>
-                        <td class="inifin p-0">0</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V06') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -27933,7 +31452,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Edwin Quintero</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'V33') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -28173,9 +31701,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Juan Fernando Quintero</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S01') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
 
@@ -28340,9 +31877,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Ignacio Bermeo</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S02') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
 
@@ -28543,9 +32089,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Brayan Fernando Duque</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S04') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
 
@@ -28731,9 +32286,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Julio Arias</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S05') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
 
@@ -28903,9 +32467,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Juan Miguel Rivillas</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S06') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
 
@@ -29088,9 +32661,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Wilmar Ladino</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S07') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
 
@@ -29209,9 +32791,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Derian Salazar</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S08') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -29220,7 +32811,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">7:04 a 8:07</th>
-                        <td class="inifin p-0">Juan Miguel Rivillas</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S06') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -29244,7 +32844,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Juan Ibañez</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S09') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -29345,9 +32954,18 @@
                                 <p class="hora m-0">12:13 A 20:02</p>
                             </div>
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Juan Ibañez</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S09') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -29356,7 +32974,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">15:19 a 16:22</th>
-                        <td class="inifin p-0">Wilmar Ladino</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S07') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -29380,7 +33007,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Derian Salazar</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S08') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -29432,9 +33068,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">James Marulanda</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S10') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -29462,7 +33107,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Jhon Alexander Valencia</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S11') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -29514,9 +33168,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Jhon Alexander Valencia</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S11') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -29544,7 +33207,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">James Marulanda</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S10') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -29657,9 +33329,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Ferney Medina</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S12') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -29687,7 +33368,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Cesar Mejia</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S13') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -29795,9 +33485,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Cesar Mejia</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S13') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -29806,7 +33505,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">14:34 a 15:37</th>
-                        <td class="inifin p-0">Juan Miguel Rivillas</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S06') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -29834,7 +33542,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Ferney Medina</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S12') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -29991,9 +33708,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Juan Carlos Gomez</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S14') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -30002,7 +33728,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">8:33 A 9:33</th>
-                        <td class="inifin p-0">Julio Arias</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S05') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -30026,7 +33761,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Hugo Molano</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S15') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -30183,9 +33927,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Hugo Molano</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S15') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -30194,7 +33947,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">18:31 a 19:31</th>
-                        <td class="inifin p-0">Julio Arias</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S05') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -30218,7 +33980,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Juan Carlos Gomez</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S14') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -30324,9 +34095,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Edwin Quintero</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S16') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -30335,7 +34115,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">7:49 a 8:43</th>
-                        <td class="inifin p-0">Wilmar Ladino</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S07') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -30359,7 +34148,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Stiven Giraldo</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S17') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -30463,9 +34261,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Stiven Giraldo</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S17') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -30474,7 +34281,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">16:58 a 17:55</th>
-                        <td class="inifin p-0">Wilmar Ladino</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S07') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -30498,7 +34314,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Edwin Quintero</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S16') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -30626,9 +34451,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Johan Restrepo</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S18') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -30637,7 +34471,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">10:15 a 11:39</th>
-                        <td class="inifin p-0">Ferney Medina</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S12') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -30661,7 +34504,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Fabio Gonzales</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S19') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -30783,9 +34635,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Fabio Gonzales</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S19') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -30794,7 +34655,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">15:57 a 17:33</th>
-                        <td class="inifin p-0">Juan Miguel Rivillas</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S06') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -30818,7 +34688,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Johan Restrepo</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S18') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -30971,9 +34850,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Jose Manuel Naranjo</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S20') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -30982,7 +34870,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">10:11 a 11:11</th>
-                        <td class="inifin p-0">Wilmar Ladino</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S07') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -31006,7 +34903,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Andres Gomez</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S21') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -31163,9 +35069,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Andres Gomez</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S21') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -31174,7 +35089,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">17:16 a 18:16</th>
-                        <td class="inifin p-0">Julio Arias</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S05') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -31198,7 +35122,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Jose Manuel Naranjo</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S20') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -31346,9 +35279,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Hector Cobos</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S22') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -31357,7 +35299,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">10:02 a 11:06</th>
-                        <td class="inifin p-0">Juan Miguel Rivillas</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S06') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -31381,7 +35332,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Diego Garcia</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S23') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -31533,9 +35493,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Diego Garcia</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S23') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -31544,7 +35513,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">18:02 a 19:06</th>
-                        <td class="inifin p-0">Wilmar Ladino</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S07') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -31568,7 +35546,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Hector Cobos</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S22') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -31676,9 +35663,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Jorge Luis Correa</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S24') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -31687,7 +35683,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">8:50 a 9:46</th>
-                        <td class="inifin p-0">Juan Miguel Rivillas</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S06') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -31711,7 +35716,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Luis Carlos Garcia</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S25') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -31806,9 +35820,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Luis Carlos Garcia</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S25') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -31833,7 +35856,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Jorge Luis Correa</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S24') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -31935,9 +35967,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Anderson Gordillo</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S26') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -31946,7 +35987,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">9:04 a 10:00</th>
-                        <td class="inifin p-0">Wilmar Ladino</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S07') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -31970,7 +36020,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Jorge Yamid Hoyos</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S27') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -32065,9 +36124,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Jorge Yamid Hoyos</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S27') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -32092,7 +36160,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Anderson Gordillo</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S26') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -32188,9 +36265,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Didier Escudero</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S28') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -32199,7 +36285,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">8:36 a 10:06</th>
-                        <td class="inifin p-0">Ferney Medina</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S12') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -32362,9 +36457,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Fernando Jaramillo</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S29') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -32373,7 +36477,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">19:45 a 20:47</th>
-                        <td class="inifin p-0">Julio Arias</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'S05') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -32603,9 +36716,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Cesar Mejia</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D01') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
 
@@ -32808,9 +36930,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Ferney Medina</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D02') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
 
@@ -32924,9 +37055,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Ignacio Bermeo</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D03') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -32954,7 +37094,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Fernando Jaramillo</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D04') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -33046,9 +37195,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Fernando Jaramillo</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D04') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -33057,7 +37215,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">16:40 a 18:08</th>
-                        <td class="inifin p-0">Ferney Medina</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D02') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -33084,7 +37251,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Ignacio Bermeo</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D03') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -33171,9 +37347,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Jorge Luis Correa</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D05') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -33206,7 +37391,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Luis Carlos Garcia</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D06') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -33295,9 +37489,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Luis Carlos Garcia</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D06') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -33330,7 +37533,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Jorge Luis Correa</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D05') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -33410,9 +37622,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Alexander Rojo</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D07') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -33445,7 +37666,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Stiven Giraldo</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D08') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -33523,9 +37753,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Stiven Giraldo</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D08') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -33557,7 +37796,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Alexander Rojo</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D07') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -33728,9 +37976,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Francisco Arias</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D09') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -33739,7 +37996,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">10:26 a 11:14</th>
-                        <td class="inifin p-0">Cesar Mejia</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D01') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -33766,7 +38032,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">William Castañeda</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D10') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -33947,9 +38222,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">William Castañeda</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D10') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -33958,7 +38242,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">19:38 a 20:26</th>
-                        <td class="inifin p-0">Cesar Mejia</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D01') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -33985,7 +38278,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Francisco Arias</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D09') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -34157,9 +38459,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Alejandro Rodriguez</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D11') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -34168,7 +38479,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">8:14 a 9:02</th>
-                        <td class="inifin p-0">Cesar Mejia</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D01') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -34195,7 +38515,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Daniel Carvajal</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D12') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -34371,9 +38700,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Daniel Carvajal</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D12') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -34382,7 +38720,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">18:38 a 19:26</th>
-                        <td class="inifin p-0">Cesar Mejia</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D01') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -34409,7 +38756,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Alejandro Rodriguez</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D11') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -34550,9 +38906,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Derian Salazar</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D13') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -34561,7 +38926,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">9:06 a 10:12</th>
-                        <td class="inifin p-0">Cesar Mejia</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D01') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -34588,7 +38962,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Jhon Alexander Valencia</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D14') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -34735,9 +39118,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Jhon Alexander Valencia</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D14') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -34746,7 +39138,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">17:21 a 18:27</th>
-                        <td class="inifin p-0">Cesar Mejia</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D01') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -34773,7 +39174,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Derian Salazar</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D13') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -34884,9 +39294,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Anderson Gordillo</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D15') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -34895,7 +39314,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">10:00 a 10:48</th>
-                        <td class="inifin p-0">Ferney Medina</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D02') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -34922,7 +39350,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Jorge Yamid Hoyos</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D16') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -35043,9 +39480,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Jorge Yamid Hoyos</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D16') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -35054,7 +39500,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">18:04 a 19:40</th>
-                        <td class="inifin p-0">Ferney Medina</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D02') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -35081,7 +39536,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Anderson Gordillo</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D15') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -35232,9 +39696,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Edwin Quintero</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D17') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -35243,7 +39716,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">7:07 a 8:01</th>
-                        <td class="inifin p-0">Cesar Mejia</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D01') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -35270,7 +39752,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Wilmar Ladino</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D18') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -35426,9 +39917,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Wilmar Ladino</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D18') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -35437,7 +39937,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">16:07 a 17:01</th>
-                        <td class="inifin p-0">Cesar Mejia</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D01') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -35464,7 +39973,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Edwin Quintero</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D17') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -35566,9 +40084,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Jose Manuel Naranjo</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D19') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -35577,7 +40104,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">8:58 a 9:56</th>
-                        <td class="inifin p-0">Ferney Medina</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D02') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -35604,7 +40140,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Andres Gomez</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D20') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -35698,9 +40243,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Andres Gomez</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D20') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -35728,7 +40282,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Jose Manuel Naranjo</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D19') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -35830,9 +40393,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Hector Cobos</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D21') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -35841,7 +40413,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">10:13 a 11:13</th>
-                        <td class="inifin p-0">Jorge Luis Correa</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D05') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -35868,7 +40449,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Diego Garcia</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D22') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -35967,9 +40557,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Diego Garcia</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D22') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -35997,7 +40596,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Hector Cobos</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D21') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -36239,9 +40847,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Brayan Fernando Duque</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D23') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -36250,7 +40867,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">7:22 A 8:10</th>
-                        <td class="inifin p-0">Ferney Medina</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D02') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -36277,7 +40903,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero que le recibe</th>
-                        <td class="inifin p-0">Julio Arias</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D24') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>
@@ -36523,9 +41158,18 @@
                             </div>
 
                         </td>
-                        <!-- Columna de Edwin Quintero al lado -->
+                        <!-- Columna de  al lado -->
                         <td rowspan="1" class="amarillo pt-4 m-0">
-                            <p class="edw">Julio Arias</p>
+                            @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D24') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <p class="edw">{{ $operadorAsignado ?? 'N/A' }}</p>
                         </td>
                     </tr>
                     <tr>
@@ -36534,7 +41178,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">14:58 a 15:46</th>
-                        <td class="inifin p-0">Ferney Medina</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D02') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     <tr>
                     <tr>
@@ -36561,7 +41214,16 @@
                     </tr>
                     <tr>
                         <th class="inifin p-0">Compañero al que le recibe</th>
-                        <td class="inifin p-0">Brayan Fernando Duque</td>
+                        @php
+                                $operadorAsignado = null;
+                                foreach($asignaciones as $asignacion) {
+                                    if($asignacion->tab->code == 'D23') {
+                                        $operadorAsignado = $asignacion->operador ? $asignacion->operador->name : '';
+                                        break;
+                                    }
+                                }
+                            @endphp
+                            <th class="inifin p-0">{{ $operadorAsignado ?? 'N/A' }}</th>
                     </tr>
                     </tr>
                     </tr>

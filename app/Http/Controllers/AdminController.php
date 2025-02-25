@@ -245,14 +245,18 @@ class AdminController extends Controller
     }
 
     public function tablas() {
-        return view('admin.tablas');
+        $asignaciones = DailyAssignment::with(['tab', 'operador'])
+            ->where('assignment_date', Carbon::tomorrow()->format('Y-m-d'))
+            ->get();
+            
+        return view('admin.tablas', compact('asignaciones'));
     }
 
     public function showAsignacion($dia)
     {
         // Definir los prefijos de los días
         $prefijosDias = [
-            'L' => 'lunes',
+            'L' => 'lunes',  
             'M' => 'martes',
             'MC' => 'miercoles',
             'J' => 'jueves',
